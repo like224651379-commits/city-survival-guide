@@ -720,7 +720,106 @@ footer a { color: rgba(255,255,255,0.7); }
 
 .city-tag.green { background: #e6f4ea; color: #2e7d32; }
 
+/* 安全提醒 */
+.warning-block { border-left: 4px solid #e74c3c; }
+.warning-block .alert.danger { background: #ffebee; border-color: #e53935; }
+
 /* 第一天行动清单 step-guide */
 .step-guide { margin: 16px 0; }
 .step-title { font-weight: 700; font-size: 15px; color: #333; margin-bottom: 12px; }
 .step-item { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
+
+/* ===== 移动端优化 ===== */
+
+/* 紧急联系栏 - 默认隐藏 */
+.emergency-bar-fixed {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* 标题字号缩小 */
+  .hero h1 { font-size: 24px; }
+  .hero p { font-size: 14px; }
+  
+  /* 按钮全宽，方便点击 */
+  .action-buttons { flex-direction: column; gap: 8px; }
+  .action-btn { width: 100%; padding: 14px; font-size: 16px; }
+  
+  /* 卡片单列显示 */
+  .info-cards { grid-template-columns: 1fr; }
+  
+  /* 增大点击区域 */
+  .info-card { padding: 16px; }
+  .info-card .ic-title { font-size: 15px; }
+  
+  /* 表格横向滚动 */
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { min-width: 600px; }
+  
+  /* 章节内边距减小 */
+  .chapter-body { padding: 12px; }
+  
+  /* 紧急联系信息固定底部 */
+  .emergency-bar-fixed {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e74c3c;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1000;
+  }
+  .emergency-bar-fixed a { color: white; font-weight: bold; }
+  
+  /* 防止内容被固定栏遮挡 */
+  body { padding-bottom: 50px; }
+  
+  /* 城市卡片单列显示 */
+  .cities-grid { grid-template-columns: 1fr; }
+  
+  /* 城市页侧边栏隐藏 */
+  .sidebar { display: none; }
+  .chapter-nav { display: none; }
+  
+  /* 手风琴内容区适配 */
+  .accordion-header { padding: 14px 16px; }
+  .accordion-body-inner { padding: 4px 16px 18px; }
+  
+  /* 步骤列表优化 */
+  .step { gap: 10px; }
+  .step-content { font-size: 13px; }
+  
+  /* 链接按钮全宽 */
+  .link-btns { flex-direction: column; }
+  .link-btn { width: 100%; justify-content: center; }
+}
+
+/* 小屏手机优化 */
+@media (max-width: 375px) {
+  .hero { padding: 20px 12px; }
+  .chapter-header { padding: 12px 16px; }
+  .chapter-title { font-size: 16px; }
+  .hero h1 { font-size: 22px; }
+  .site-header .inner { padding: 0 12px; }
+  .cities-section { padding: 20px 12px 40px; }
+}
+
+/* 点击区域优化（所有设备） */
+.action-btn, .info-card, .step-item, .accordion-header, .city-card, .btn-enter {
+  min-height: 44px; /* iOS推荐最小点击高度 */
+}
+
+/* 文字可读性 */
+body { 
+  -webkit-text-size-adjust: 100%; /* 防止iPhone自动调整字号 */
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ===== 页面底部信息 ===== */
+.page-footer { background: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #666; border-top: 1px solid #e0e0e0; margin-top: 40px; }
+.page-footer a { color: #e74c3c; text-decoration: none; }
