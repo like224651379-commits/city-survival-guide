@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body data-city="nanjing">
+
 <header class="city-header">
   <div class="inner">
     <a href="../index.html" class="back-btn">← 返回</a>
@@ -20,401 +21,947 @@
     </nav>
   </div>
 </header>
+
 <div class="emergency-bar">
   <div class="inner">
     <span class="emergency-label">⚡ 紧急求助</span>
-    <div class="emergency-item"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
-    <div class="emergency-item"><span>救助站</span><span class="num">025-84459110</span><span class="copy-hint">点击复制</span></div>
-    <div class="emergency-item"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
-    <div class="emergency-item"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
-    <div class="emergency-item"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item" title="点击复制"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item" title="点击复制"><span>救助站</span><span class="num">025-84459110</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item" title="点击复制"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item" title="点击复制"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item" title="点击复制"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
   </div>
 </div>
+
 <div class="city-layout">
+
   <aside class="sidebar">
     <div class="search-box"><input type="text" id="search-input" placeholder="🔍 搜索关键词…"></div>
     <div class="sidebar-toc">
       <h4>目录</h4>
-      <div class="toc-chapter"><div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div><div class="toc-items"><a class="toc-item" href="#acc-sleep">今晚睡哪里</a><a class="toc-item" href="#acc-food">今天吃什么</a><a class="toc-item" href="#acc-earn">今天赚到钱</a><a class="toc-item" href="#acc-comm">通信保障</a></div></div>
-      <div class="toc-chapter"><div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div><div class="toc-items"><a class="toc-item" href="#acc-house">找稳定住所</a><a class="toc-item" href="#acc-job">找到工作</a><a class="toc-item" href="#acc-bank">开通账户</a></div></div>
-      <div class="toc-chapter"><div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div><div class="toc-items"><a class="toc-item" href="#acc-social">社保公积金</a><a class="toc-item" href="#acc-resident">居住证路径</a><a class="toc-item" href="#acc-skill">技能变现</a></div></div>
-      <div class="toc-chapter"><div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div><div class="toc-items"><a class="toc-item" href="#resources">所有热线 &amp; 地址</a></div></div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-sleep">今晚睡哪里</a>
+          <a class="toc-item" href="#acc-food">今天吃什么</a>
+          <a class="toc-item" href="#acc-earn">今天赚到钱</a>
+          <a class="toc-item" href="#acc-comm">通信保障</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-house">找稳定住所</a>
+          <a class="toc-item" href="#acc-job">找到工作</a>
+          <a class="toc-item" href="#acc-bank">开通账户</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-social">社保公积金</a>
+          <a class="toc-item" href="#acc-resident">居住证路径</a>
+          <a class="toc-item" href="#acc-skill">技能变现</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div>
+        <div class="toc-items"><a class="toc-item" href="#resources">所有热线 &amp; 地址</a></div>
+      </div>
     </div>
   </aside>
-  <main class="content-area">
-    <div class="progress-hint"><span>📖</span><div style="flex:1"><div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div><div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div></div></div>
 
+  <main class="content-area">
+
+    <div class="progress-hint">
+      <span>📖</span>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div>
+        <div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <!-- ======= 第一章 ======= -->
     <section class="chapter" id="chapter1">
       <div class="chapter-header">
         <div class="chapter-icon red">🔴</div>
         <div class="chapter-title">
           <h2>第一章：活下去（前 7 天）</h2>
-          <p>南京是华东第二大城市，高校密集、科研院所众多，软件/电子/汽车是主要产业，新街口是华东最繁华的商业区之一。</p>
+          <p>南京是华东重要城市，高校密集（多所985/211）、软件/电子/汽车是主要产业，新街口是华东最繁华商业区之一。生活成本低于上海和苏州，高校食堂资源丰富。优先解决今晚睡哪、今天吃什么、今天赚到钱。</p>
         </div>
       </div>
+
       <div class="accordion-group">
 
+        <!-- 1.1 今晚睡哪里 -->
         <div class="accordion" id="acc-sleep">
           <div class="accordion-header">
             <span class="acc-icon">🛏️</span>
-            <div class="acc-title-block"><div class="acc-title">今晚睡哪里</div><div class="acc-sub">南京城郊单间500元起，住宿成本适中</div><div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">低价选项</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">今晚睡哪里</div>
+              <div class="acc-sub">按费用从低到高排列，先看第一个选项</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">免费选项</span>
+                <span class="acc-tag cheap">低价选项</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">🆓 选项一：南京市救助管理站（免费）</div>
-              <div class="info-cards">
-                <div class="info-card"><div class="ic-title">南京市救助管理站</div><div class="ic-body">📍 建邺区南湖路11号 ⚡请核实<br>☎️ 025-84459110（24小时）<br>🚇 地铁4号线→南湖路站附近</div></div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🆓 选项一：南京市救助管理站（免费）</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">救助站是最后的保障，只要你在南京无处可去，都可以前往，无需提前预约。</div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">南京市救助管理站</div>
+                    <div class="ic-body">
+                      📍 建邺区南湖路11号 ⚡请核实<br>
+                      ☎️ 025-84459110（24小时）<br>
+                      🕐 全天 24 小时接待<br>
+                      🚇 地铁4号线→南湖路站，步行约10分钟
+                    </div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>025-84459110</strong>，告知位置，可申请派车接送（免费）</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">也可直接步行/乘公交前往，向工作人员说明：来南京求职，目前无住所、无收入</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">出示身份证（无证者也可求助，工作人员会协助核实身份）</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">审核通过后提供住宿 + 一日三餐 + 基础医疗，一般可住 7-10 天</div></div>
+                  <div class="step"><span class="step-num">5</span><div class="step-content">住进去第一天就开始规划下一步：主动问工作人员有没有推荐就业资源</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content"><strong>注意：</strong>救助属于临时性质，不能长期居住。第一天入住就要开始找工作和住所。</div>
+                </div>
               </div>
-              <div class="steps">
-                <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>025-84459110</strong>，告知位置申请接送</div></div>
-                <div class="step"><span class="step-num">2</span><div class="step-content">带身份证前往，说明来宁求职、无住所</div></div>
-                <div class="step"><span class="step-num">3</span><div class="step-content">审核通过提供住宿+三餐，可住7-10天</div></div>
+
+              <div class="content-block">
+                <div class="block-title">💸 选项二：青年旅社（60-110元/晚）</div>
+                <div class="alert info">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">价格随时变动，以实际平台价格为准。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>玄武区</strong></td><td>南京站/新街口附近</td><td>70-110元/晚</td><td>市中心，地铁方便</td></tr>
+                    <tr><td><strong>秦淮区</strong></td><td>夫子庙/老门东/中华门附近</td><td>60-100元/晚</td><td>历史文化区，氛围好</td></tr>
+                    <tr><td><strong>江宁区</strong></td><td>南京南站附近</td><td>55-90元/晚</td><td>高铁站旁，价格低</td></tr>
+                    <tr><td><strong>鼓楼区</strong></td><td>鼓楼广场/湖南路附近</td><td>65-100元/晚</td><td>高校密集区，文化氛围</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>美团 App</strong> → 搜"青年旅社"→ 按价格升序排列</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或打开<strong>携程/去哪儿</strong> → 选"旅馆青旅" → 筛选最低价</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content"><strong>砍价技巧：</strong>直接打电话给青旅，说"打算住一周，可以便宜点吗"——长住一般有折扣</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="https://i.meituan.com" target="_blank" class="link-btn outline">📱 美团搜索青旅</a>
+                  <a href="https://www.ctrip.com" target="_blank" class="link-btn outline">🏨 携程搜青旅</a>
+                </div>
               </div>
-            </div>
-            <div class="content-block">
-              <div class="block-title">💸 选项二：青年旅社（60-110元/晚）</div>
-              <table class="data-table">
-                <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>玄武区</strong></td><td>南京站/新街口附近</td><td>70-110元/晚</td><td>市中心，交通极便利</td></tr>
-                  <tr><td><strong>秦淮区</strong></td><td>夫子庙/老门东附近</td><td>60-100元/晚</td><td>历史文化区，氛围好</td></tr>
-                  <tr><td><strong>江宁区</strong></td><td>南京南站附近</td><td>60-90元/晚</td><td>高铁站旁，价格低</td></tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="content-block">
-              <div class="block-title">🏘️ 选项三：城郊/城中村短租（押一付一起住）</div>
-              <table class="data-table">
-                <thead><tr><th>区域</th><th>代表地点</th><th>单间月租</th><th>适合方向</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>江宁区</strong></td><td>东山、江宁、秣陵、湖熟</td><td>600-1000元</td><td>软件/制造/汽车（中航雷诺/上汽大众）</td></tr>
-                  <tr><td><strong>栖霞区</strong></td><td>仙林、龙潭、尧化门附近老社区</td><td>600-900元</td><td>高校区/科研/软件</td></tr>
-                  <tr><td><strong>浦口区</strong></td><td>浦口老城区、桥北片区</td><td>500-800元</td><td>制造/物流</td></tr>
-                  <tr><td><strong>雨花台区</strong></td><td>铁心桥、西善桥</td><td>600-900元</td><td>制造/物流/软件</td></tr>
-                </tbody>
-              </table>
-              <div class="steps">
-                <div class="step"><span class="step-num">1</span><div class="step-content">打开58同城搜"南京单间 押一付一"，筛选绕城以外低价房源</div></div>
-                <div class="step"><span class="step-num">2</span><div class="step-content">江宁东山、仙林大学城附近房源多，是南京最经济的居住区</div></div>
+
+              <div class="content-block">
+                <div class="block-title">🏘️ 选项三：秦淮/鼓楼城中村短租（押一付一，200-500元起住）</div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content">南京主城区内有大量城中村，秦淮区和鼓楼区城中村距市区极近，是最便宜的短租首选。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>代表地点/村落</th><th>单间月租</th><th>适合方向</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>秦淮区</strong></td><td>中华门外、铁心桥附近村落、门东老社区</td><td>700-1000元</td><td>餐饮/快递/零工</td></tr>
+                    <tr><td><strong>鼓楼区</strong></td><td>挹江门沿线旧社区、热河路片区、定淮门</td><td>700-1000元</td><td>高校周边服务/外卖</td></tr>
+                    <tr><td><strong>江宁区</strong></td><td>东山街道、湖熟镇、铜山街道村落</td><td>500-800元</td><td>汽车/制造/物流</td></tr>
+                    <tr><td><strong>栖霞区</strong></td><td>尧化门老社区、靖安村、仙林边缘村落</td><td>500-800元</td><td>高校/软件/科研</td></tr>
+                    <tr><td><strong>浦口区</strong></td><td>桥北片区、顶山街道旧社区</td><td>400-700元</td><td>制造/物流/建筑</td></tr>
+                    <tr><td><strong>雨花台区</strong></td><td>铁心桥、西善桥城中村片区</td><td>500-800元</td><td>软件谷IT/制造</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开 <strong>58同城 App</strong> → 搜索"南京日租/周租/单间"，找押一付一的房源</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content"><strong>最实用方法：</strong>直接去上述城中村转悠，看路边"出租"小广告，直接找房东（比中介便宜，无中介费）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">告诉房东"我刚来南京找工作，能不能押一付一"，大多数房东可以接受</div></div>
+                </div>
               </div>
+
+              <div class="content-block">
+                <div class="block-title">🌙 选项四：24小时快餐店（紧急情况，约10-15元过夜）</div>
+                <div class="alert danger">
+                  <span class="alert-icon">🆘</span>
+                  <div class="alert-content">这是最后手段。点一杯饮料（10-15元），可在店内坐到天亮。第二天一定要尽快解决住所问题。</div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开 <strong>麦当劳 App</strong> → 点击"餐厅"→ 筛选"24小时营业"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">南京南站、南京站候车大厅可在公共区域临时停留（有票可候车）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">新街口地铁换乘大厅公共空间大，可临时休息</div></div>
+                </div>
+              </div>
+
             </div>
-          </div></div>
+          </div>
         </div>
 
+        <!-- 1.2 今天吃什么 -->
         <div class="accordion" id="acc-food">
           <div class="accordion-header">
             <span class="acc-icon">🍚</span>
-            <div class="acc-title-block"><div class="acc-title">今天吃什么（5-20元吃饱）</div><div class="acc-sub">鸭血粉丝/盐水鸭/桂花糕，南京特色低价美食</div><div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">5-20元</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">今天吃什么（5-20元吃饱）</div>
+              <div class="acc-sub">高校食堂、南京特色低价美食、临期食品、公益素斋</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">免费选项</span>
+                <span class="acc-tag cheap">5-20元</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">🎓 选项一：高校食堂（5-12元/餐）</div>
-              <table class="data-table">
-                <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格参考</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>南京工程学院</strong></td><td>江宁区弘景大道1号</td><td>相对开放</td><td>5-10元/餐</td></tr>
-                  <tr><td><strong>南京晓庄学院</strong></td><td>栖霞区仙林大学城文苑路</td><td>较为开放</td><td>5-10元/餐</td></tr>
-                  <tr><td><strong>金陵科技学院</strong></td><td>江宁区科创路99号</td><td>开放度较高</td><td>5-10元/餐</td></tr>
-                  <tr><td><strong>南京审计大学</strong></td><td>浦口区雨山西路86号</td><td>较为开放</td><td>5-10元/餐</td></tr>
-                </tbody>
-              </table>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🎓 选项一：高校食堂（5-12元/餐）</div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">各校管理政策随时变化，以下信息请实时核查。进入后保持低调，用现金或移动支付即可。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>南京工程学院</strong></td><td>江宁区弘景大道1号</td><td>相对开放，步行进入</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>南京晓庄学院</strong></td><td>栖霞区仙林大学城文苑路</td><td>较为开放</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>金陵科技学院</strong></td><td>江宁区科创路99号</td><td>开放度较高</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>南京审计大学</strong></td><td>浦口区雨山西路86号</td><td>较为开放</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>南京工业大学</strong></td><td>浦口区浦珠南路30号</td><td>高峰期随学生进入</td><td>5-12元/餐</td></tr>
+                    <tr><td><strong>南京邮电大学</strong></td><td>仙林校区栖霞区文澜路9号</td><td>仙林校区相对宽松</td><td>5-12元/餐</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">优先前往江宁区各高校：乘地铁1号线→江宁方向，沿线有南京工程学院、金陵科技学院等</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">仙林大学城（地铁2号线→仙林中心站）周边集中多所大学，食堂选择多，价格低</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">用现金或微信/支付宝直接付款，不需要学生卡，跟着学生走</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">高峰期：12:00-13:00 和 17:30-18:30，错峰用餐减少注意</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🦆 南京特色低价美食（5-15元）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content">南京有大量经典低价小吃，尤其在城中村和老城区，一顿饭10元以内完全可以吃饱吃好。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>食物</th><th>价格</th><th>哪里找</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>鸭血粉丝汤</strong></td><td>8-15元/碗</td><td>全市遍布，秦淮区/夫子庙老店最正宗量大</td></tr>
+                    <tr><td><strong>烧饼夹里脊</strong></td><td>5-8元/个</td><td>全市路边早点摊，门西/老门东附近多</td></tr>
+                    <tr><td><strong>葱油饼/豆腐脑</strong></td><td>3-6元</td><td>城中村早市、菜市场旁摊位</td></tr>
+                    <tr><td><strong>老菜市场盒饭</strong></td><td>8-12元/份</td><td>江宁东山、仙林、铁心桥菜市场附近</td></tr>
+                    <tr><td><strong>城中村面馆</strong></td><td>8-12元/碗</td><td>鼓楼区城中村、秦淮区老巷子里</td></tr>
+                    <tr><td><strong>盐水鸭散装（100g）</strong></td><td>约8-12元</td><td>各大超市/菜市场，量力购买</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏪 选项二：临期食品（1-8元）</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">高德地图搜索"<strong>好特卖</strong>"，南京高新/江宁/仙林/新街口均有门店，专卖临期折扣食品</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">去 <strong>苏果超市、大润发</strong>，晚上 20:00-22:00 找"特价"或"临期"货架，面包/便当折扣最明显</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">便利蜂、罗森等便利店每天晚8点后对当天食品打折</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🕌 公益低价素斋</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">鸡鸣寺素菜馆</div>
+                    <div class="ic-body">
+                      📍 玄武区鸡鸣寺路1号（玄武湖畔）⚡请核实营业状态<br>
+                      🕐 7:00-17:00（参考）<br>
+                      💰 约10-20元/份，素斋量足<br>
+                      🚇 地铁3号线→鸡鸣寺站
+                    </div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">玄武湖周边早点摊</div>
+                    <div class="ic-body">
+                      📍 玄武湖公园北门外<br>
+                      💰 包子/豆浆/油条 3-6元<br>
+                      🕐 6:00-9:00（早市）
+                    </div>
+                  </div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content">关注微信公众号"<strong>南京义工联</strong>"，不定期有爱心餐活动，免费或极低价。各街道救助办可查询低价就餐信息。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🍜 其他低价选项（5-15元）</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>价格</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td>城中村路边小面馆</td><td>8-12元</td><td>量大管饱，鼓楼/秦淮城中村内最便宜</td></tr>
+                    <tr><td>农贸市场附近盒饭</td><td>8-15元</td><td>江宁东山菜市、仙林菜市附近</td></tr>
+                    <tr><td>麦当劳App领券套餐</td><td>约12元</td><td>汉堡+饮料，App领券再便宜2-3元</td></tr>
+                    <tr><td>苏果超市熟食/包子</td><td>5-12元</td><td>南京本土超市，性价比高</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
             </div>
-            <div class="content-block">
-              <div class="block-title">🦆 南京特色低价美食</div>
-              <table class="data-table">
-                <thead><tr><th>食物</th><th>价格</th><th>哪里找</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>鸭血粉丝汤</strong></td><td>8-15元/碗</td><td>全市遍布，夫子庙老店最正宗</td></tr>
-                  <tr><td><strong>盐水鸭（买散装）</strong></td><td>15-25元/斤</td><td>各大超市/菜市场均有售</td></tr>
-                  <tr><td><strong>烧饼夹里脊</strong></td><td>5-8元/个</td><td>路边早点摊，全市遍布</td></tr>
-                  <tr><td><strong>老菜市场小饭馆</strong></td><td>8-15元/份</td><td>江宁、仙林老社区，量大价廉</td></tr>
-                  <tr><td><strong>好特卖临期食品</strong></td><td>1-5元</td><td>高德搜"好特卖"，全市多门店</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div></div>
+          </div>
         </div>
 
+        <!-- 1.3 今天赚钱 -->
         <div class="accordion" id="acc-earn">
           <div class="accordion-header">
             <span class="acc-icon">💰</span>
-            <div class="acc-title-block"><div class="acc-title">今天能赚到钱（零门槛，当天结算）</div><div class="acc-sub">零工平台、劳务市场，当天可到账</div><div class="acc-tags"><span class="acc-tag fast">当天到账</span><span class="acc-tag cheap">80-300元/天</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">今天能赚到钱（零门槛，当天结算）</div>
+              <div class="acc-sub">零工平台、劳务市场、献血，当天可到账</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">当天到账</span>
+                <span class="acc-tag cheap">80-300元/天</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">📱 方案一：零工平台</div>
-              <table class="data-table">
-                <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>90-260元</td><td>微信搜"美团跑腿"</td></tr>
-                  <tr><td><strong>闪送骑手</strong></td><td>同城急送</td><td>110-350元</td><td>闪送App</td></tr>
-                  <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>80-200元</td><td>货拉拉App</td></tr>
-                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖配送</td><td>90-260元</td><td>美团App→骑手</td></tr>
-                  <tr><td><strong>58速聘日结</strong></td><td>各类日结工</td><td>80-200元</td><td>58同城App</td></tr>
-                </tbody>
-              </table>
-              <div class="alert info"><span class="alert-icon">💡</span><div class="alert-content"><strong>南京特色：</strong>新街口商业区对闪送/跑腿需求大；河西CBD、江北新区（互联网/科研）办公楼集中，商务急送价格高。</div></div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📱 方案一：零工平台（当天结算）</div>
+                <table class="data-table">
+                  <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>90-260元</td><td>微信搜"美团跑腿"→成为跑腿员</td></tr>
+                    <tr><td><strong>闪送骑手</strong></td><td>同城急送</td><td>110-350元</td><td>闪送App→注册骑手</td></tr>
+                    <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>80-200元</td><td>货拉拉App→成为帮手</td></tr>
+                    <tr><td><strong>美团外卖众包</strong></td><td>外卖配送</td><td>90-260元</td><td>美团App→成为骑手→众包</td></tr>
+                    <tr><td><strong>饿了么蜂鸟众包</strong></td><td>外卖配送</td><td>90-240元</td><td>饿了么App→骑手频道</td></tr>
+                    <tr><td><strong>58速聘日结</strong></td><td>各类日结工</td><td>80-200元</td><td>58同城App→搜"日结"</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">以 <strong>美团跑腿众包</strong> 为例：微信 → 搜索"美团跑腿" → 点击小程序 → "成为跑腿员"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">上传身份证正反面 + 绑定银行卡（无银行卡可先用微信零钱收款）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">审核通过后（一般 30 分钟-1 小时）即可接单</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">完成订单后当天可提现</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>南京特色：</strong>新街口商业区对闪送/跑腿需求大；河西CBD、江北新区（互联网/科研）办公楼集中，商务急送价格高。旺季（春/秋）旅游景区促销临时工也是快速来钱的方式。</div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>无电动车怎么办：</strong>先做步行众包或帮手（徒步接单），收入虽低（50-100元/天）但零成本。有钱后租电动车（日租30-50元），收入可提升到200元+/天。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏗️ 方案二：劳务市场（当天现结）</div>
+                <table class="data-table">
+                  <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>下关劳务市场</strong></td><td>鼓楼区下关滨江路、热河南路附近</td><td>早上 6:00-8:00</td><td>120-220元</td></tr>
+                    <tr><td><strong>江宁劳务市场</strong></td><td>江宁区东山街道东山大道附近</td><td>早上 6:00-8:00</td><td>130-230元</td></tr>
+                    <tr><td><strong>浦口劳务市场</strong></td><td>浦口区桥北片区、浦口老城区</td><td>早上 6:30-8:30</td><td>120-220元</td></tr>
+                    <tr><td><strong>仙林劳务</strong></td><td>栖霞区仙林大道附近工业区</td><td>早上 6:30-8:00</td><td>120-210元</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">提前查好路线，确保早上 <strong>6:30-7:30</strong> 到达，这是工头招人高峰</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">站在人群中，主动问"有活吗"或等工头过来问人</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content"><strong>出发前必须谈清楚：①工作内容 ②时长 ③工资 ④是否当天结</strong></div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">只接 <strong>当天现结</strong> 的活，当天完工后立即要工资</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">遇到拖欠工资立即拨打 <strong>12333</strong>（劳动仲裁热线）。保留工作凭证（照片/聊天记录）。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🩸 方案三：无偿献血（补贴约100-400元）⚡</div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">献血补贴标准随时变化，以南京血液中心官方公告为准。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>南京血液中心</strong></td><td>鼓楼区中山路156号 ⚡请核实</td><td>周一至周日 8:30-17:00</td></tr>
+                    <tr><td><strong>新街口献血屋</strong></td><td>玄武区新街口广场附近</td><td>9:00-17:00</td></tr>
+                    <tr><td><strong>夫子庙献血点</strong></td><td>秦淮区夫子庙景区附近 ⚡请核实</td><td>9:00-17:00</td></tr>
+                    <tr><td><strong>河西献血屋</strong></td><td>建邺区河西中央公园附近 ⚡请核实</td><td>9:00-17:00</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">微信搜索"<strong>南京献血</strong>"小程序或公众号，查所有献血点位置并在线预约</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">携带身份证前往，健康问询 + 快速体检（血压/血型初筛）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">捐献全血 200ml，全程约 20-30 分钟，献完领取献血证和补贴</div></div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">献血资格</div>
+                    <div class="ic-body">年龄 18-60 周岁<br>体重男≥50kg，女≥45kg<br>前一天充分休息<br>前4小时不吃油腻食物<br>两次全血间隔≥6个月</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">补贴参考 ⚡</div>
+                    <div class="ic-body">全血200ml：约50-100元<br>单采血小板：约200-400元<br>另有纪念品（牛奶/饼干等）</div>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div class="content-block">
-              <div class="block-title">🏗️ 方案二：劳务市场（当天现结）</div>
-              <table class="data-table">
-                <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>下关劳务市场</strong></td><td>鼓楼区下关区域</td><td>早上 6:00-8:00</td><td>120-220元</td></tr>
-                  <tr><td><strong>江宁劳务市场</strong></td><td>江宁区东山街道附近</td><td>早上 6:00-8:00</td><td>130-230元</td></tr>
-                  <tr><td><strong>浦口劳务市场</strong></td><td>浦口区桥北片区</td><td>早上 6:30-8:30</td><td>120-220元</td></tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="content-block">
-              <div class="block-title">🩸 方案三：无偿献血（补贴约100-400元）⚡</div>
-              <table class="data-table">
-                <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>南京血液中心</strong></td><td>秦淮区中山南路附近 ⚡请核实</td><td>周一至周日 8:30-17:00</td></tr>
-                  <tr><td><strong>新街口献血屋</strong></td><td>玄武区新街口附近</td><td>9:00-17:00</td></tr>
-                  <tr><td><strong>夫子庙献血点</strong></td><td>秦淮区夫子庙景区附近</td><td>9:00-17:00</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div></div>
+          </div>
         </div>
 
+        <!-- 1.4 通信保障 -->
         <div class="accordion" id="acc-comm">
           <div class="accordion-header">
             <span class="acc-icon">📱</span>
-            <div class="acc-title-block"><div class="acc-title">基础通信保障</div><div class="acc-sub">最便宜电话卡、公共Wi-Fi、免费充电</div><div class="acc-tags"><span class="acc-tag cheap">9元/月起</span><span class="acc-tag free">免费Wi-Fi</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">基础通信保障</div>
+              <div class="acc-sub">最便宜电话卡、公共Wi-Fi、免费充电地点</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">9元/月起</span>
+                <span class="acc-tag free">免费Wi-Fi</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">📲 电话卡 + Wi-Fi + 充电</div>
-              <table class="data-table">
-                <thead><tr><th>场所/方式</th><th>说明</th><th>费用</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>中国电信/移动/联通</strong></td><td>9元月套餐，带身份证营业厅办理</td><td>9元/月</td></tr>
-                  <tr><td><strong>南京图书馆</strong></td><td>免费Wi-Fi+充电，玄武区成贤街66号，9:00-21:00</td><td>免费</td></tr>
-                  <tr><td><strong>南京地铁站</strong></td><td>主要站点有免费Wi-Fi</td><td>免费</td></tr>
-                  <tr><td><strong>麦当劳/肯德基</strong></td><td>点餐后免费Wi-Fi+充电</td><td>13元起消费</td></tr>
-                </tbody>
-              </table>
-              <div class="alert success"><span class="alert-icon">✅</span><div class="alert-content"><strong>推荐：南京图书馆</strong>（地铁3号线鸡鸣寺站附近），免费Wi-Fi+充电+阅读座位，周二至周日 9:00-21:00。</div></div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📲 最便宜电话卡</div>
+                <table class="data-table">
+                  <thead><tr><th>运营商</th><th>套餐</th><th>月费</th><th>购买方式</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>中国电信</strong></td><td>翼卡9元套餐（含流量+通话）</td><td>9元</td><td>电信营业厅，现场办理</td></tr>
+                    <tr><td><strong>中国移动</strong></td><td>花卡9元套餐</td><td>9元</td><td>移动营业厅 / 微信搜"中国移动"</td></tr>
+                    <tr><td><strong>中国联通</strong></td><td>沃派卡9元</td><td>9元</td><td>联通营业厅</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">高德地图搜索"中国电信营业厅"，找最近的一家</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">带身份证进门，直接说"我要最便宜的套餐，要当天可用的"</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">现场激活，当场使用</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📶 南京免费公共 Wi-Fi</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>Wi-Fi 说明</th><th>备注</th></tr></thead>
+                  <tbody>
+                    <tr><td>南京地铁站内</td><td>免费Wi-Fi覆盖主要站</td><td>速度较慢但可用</td></tr>
+                    <tr><td>南京图书馆</td><td>图书馆专用Wi-Fi</td><td>玄武区成贤街66号，稳定高速</td></tr>
+                    <tr><td>麦当劳/肯德基</td><td>免费Wi-Fi</td><td>点餐后可用，全市门店均有</td></tr>
+                    <tr><td>政务服务大厅</td><td>等候区免费Wi-Fi</td><td>稳定，处理政务时可用</td></tr>
+                    <tr><td>新街口各大商场</td><td>商场免费Wi-Fi</td><td>金鹰/德基/中央商场均有覆盖</td></tr>
+                  </tbody>
+                </table>
+                <div class="alert success">
+                  <span class="alert-icon">✅</span>
+                  <div class="alert-content"><strong>推荐首选：南京图书馆总馆</strong>（地铁3号线鸡鸣寺站附近，成贤街66号），周二至周日 9:00-21:00，周一至18:00。免费Wi-Fi + 免费充电 + 免费座位，可整天在此处理找工作事务。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🔋 免费充电地点</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>南京图书馆</strong></td><td>阅览区桌旁有插座，完全免费，首选</td></tr>
+                    <tr><td><strong>南京市民中心</strong></td><td>建邺区庐山路1号，公共区域有插座</td></tr>
+                    <tr><td><strong>麦当劳/肯德基</strong></td><td>座位旁有插座，点餐后可用</td></tr>
+                    <tr><td><strong>商场公共休息区</strong></td><td>新街口金鹰、德基广场休息区有充电座</td></tr>
+                    <tr><td><strong>地铁站共享充电宝</strong></td><td>小电/来电，约1元/小时，扫码借还</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
             </div>
-          </div></div>
+          </div>
         </div>
 
-      </div>
+      </div><!-- end accordion-group ch1 -->
     </section>
 
+    <!-- ======= 第二章 ======= -->
     <section class="chapter" id="chapter2">
       <div class="chapter-header">
         <div class="chapter-icon blue">🔵</div>
-        <div class="chapter-title"><h2>第二章：站稳脚（第 2-4 周）</h2><p>南京高校多、科研强，软件/互联网/汽车是稳定就业方向，仙林/江宁是主要居住区。</p></div>
+        <div class="chapter-title">
+          <h2>第二章：站稳脚（第 2-4 周）</h2>
+          <p>找到稳定住所、找到正式工作、开通金融账户——建立生活基础。南京高校多、科研强，软件/互联网/汽车/电子是稳定就业方向，江宁/仙林/雨花台是主要居住就业区。</p>
+        </div>
       </div>
+
       <div class="accordion-group">
 
+        <!-- 2.1 稳定住所 -->
         <div class="accordion" id="acc-house">
           <div class="accordion-header">
             <span class="acc-icon">🏠</span>
-            <div class="acc-title-block"><div class="acc-title">找到稳定住所</div><div class="acc-sub">求职驿站 / 城郊合租，月租600-1200元</div><div class="acc-tags"><span class="acc-tag free">驿站免费</span><span class="acc-tag cheap">合租600元起</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">找到稳定住所</div>
+              <div class="acc-sub">求职驿站 / 城郊合租，每月500-1200元</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">驿站免费</span>
+                <span class="acc-tag cheap">合租500元起</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">🏢 选项一：南京求职驿站（免费）⚡</div>
-              <div class="info-cards">
-                <div class="info-card"><div class="ic-title">各区人社局热线 ⚡</div><div class="ic-body">江宁区：025-85518888 ⚡请核实<br>栖霞区：025-85800000 ⚡请核实<br>建邺区：025-86882000 ⚡请核实<br>市人社局：025-12333</div></div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🏢 选项一：南京求职驿站（免费住 7-14 天）⚡</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">南京各区人社局为来宁求职人员提供临时免费住宿，名额有限，需提前申请，政策随时更新。</div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">申请条件（参考）</div>
+                    <div class="ic-body">年龄18-45周岁<br>在宁无固定住所<br>有求职意愿<br>持有效身份证</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">各区人社局热线 ⚡</div>
+                    <div class="ic-body">市人社局：025-12333<br>江宁区：025-52200200 ⚡请核实<br>栖霞区：025-85800000 ⚡请核实<br>建邺区：025-86882000 ⚡请核实<br>雨花台区：025-52291234 ⚡请核实</div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">下载 <strong>我的南京 App</strong>（应用市场搜索），搜索"求职驿站"查看当前开放名额</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或直接拨打 025-12333 询问申请流程</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">携带身份证前往指定地点办理，审核通过后安排入住</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="http://hrss.nj.gov.cn" target="_blank" class="link-btn outline">🌐 南京人社局官网</a>
+                </div>
               </div>
-              <div class="steps">
-                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>我的南京App</strong>，搜索"求职驿站"</div></div>
-                <div class="step"><span class="step-num">2</span><div class="step-content">或拨打025-12333咨询当前名额</div></div>
+
+              <div class="content-block">
+                <div class="block-title">🏘️ 选项二：城郊合租（月租500-1200元）</div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>代表村落/片区</th><th>单间月租</th><th>适合人群</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>江宁区</strong></td><td>东山街道、江宁科学园、秣陵、湖熟</td><td>500-900元</td><td>汽车/制造/物流/上汽大众</td></tr>
+                    <tr><td><strong>栖霞区</strong></td><td>仙林大学城、尧化门、龙潭</td><td>500-800元</td><td>高校/软件/科研</td></tr>
+                    <tr><td><strong>浦口区</strong></td><td>桥北片区、江北新区边缘</td><td>500-800元</td><td>制造/物流</td></tr>
+                    <tr><td><strong>雨花台区</strong></td><td>铁心桥、西善桥</td><td>600-900元</td><td>软件谷IT/制造</td></tr>
+                    <tr><td><strong>秦淮/鼓楼</strong></td><td>城中村旧社区</td><td>700-1000元</td><td>市中心近，服务业/外卖</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开 <strong>安居客 App</strong> → 选"租房"→ 筛选"合租/单间"→ 价格设 500-1000元</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或直接到目标城中村转悠，看路边"出租"广告，找房东直租（无中介费）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">微信搜索"南京江宁找房"、"南京仙林找房"等，加入本地租房群</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">签合同前拍下房间现状（照片），避免押金纠纷；尽量压到押一付一</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="https://nj.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客南京</a>
+                  <a href="https://nj.58.com" target="_blank" class="link-btn outline">📋 58同城南京</a>
+                </div>
               </div>
+
             </div>
-            <div class="content-block">
-              <div class="block-title">🏘️ 选项二：城郊合租（月租600-1200元）</div>
-              <table class="data-table">
-                <thead><tr><th>区域</th><th>代表地点</th><th>合租价格</th><th>通勤参考</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>江宁区</strong></td><td>东山、江宁科学园、秣陵</td><td>600-1000元</td><td>地铁1/3号线，30-50分钟到市区</td></tr>
-                  <tr><td><strong>栖霞区</strong></td><td>仙林大学城、尧化门</td><td>600-900元</td><td>地铁2/14号线</td></tr>
-                  <tr><td><strong>浦口区</strong></td><td>浦口老城、江北新区</td><td>600-900元</td><td>地铁10号线过江</td></tr>
-                  <tr><td><strong>雨花台区</strong></td><td>铁心桥、西善桥</td><td>600-900元</td><td>地铁3号线</td></tr>
-                </tbody>
-              </table>
-              <div class="link-btns">
-                <a href="https://nj.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客南京</a>
-                <a href="https://nj.58.com" target="_blank" class="link-btn outline">📋 58同城南京</a>
-              </div>
-            </div>
-          </div></div>
+          </div>
         </div>
 
+        <!-- 2.2 找工作 -->
         <div class="accordion" id="acc-job">
           <div class="accordion-header">
             <span class="acc-icon">💼</span>
-            <div class="acc-title-block"><div class="acc-title">找到工作</div><div class="acc-sub">软件/电子/汽车/教育，招聘平台选择</div><div class="acc-tags"><span class="acc-tag fast">蓝领当天入职</span><span class="acc-tag cheap">软件外包机会多</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">找到工作</div>
+              <div class="acc-sub">蓝领/白领方向，招聘平台 + 操作流程</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">蓝领当天入职</span>
+                <span class="acc-tag cheap">包吃住选项</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">🔧 蓝领方向</div>
-              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>南京蓝领首选：</strong>江宁开发区（上汽大众/博世/飞利浦等）、雨花台软件谷（IT外包）、浦口工业园大量招工，很多企业提供住宿。</div></div>
-              <table class="data-table">
-                <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>BOSS直聘</strong></td><td>直接联系，响应快</td><td>应用市场</td></tr>
-                  <tr><td><strong>58同城</strong></td><td>蓝领/日结多</td><td>nj.58.com</td></tr>
-                  <tr><td><strong>江宁开发区</strong></td><td>上汽大众/博世等，大量招聘</td><td>地铁1号线，线下前往</td></tr>
-                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖，灵活收入</td><td>美团App→骑手</td></tr>
-                </tbody>
-              </table>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🔧 蓝领方向（制造/汽车/快递/外卖/保洁）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>最快路径：</strong>江宁开发区（上汽大众/博世/飞利浦/中航雷诺等）大量招聘，很多提供宿舍+餐饮，当天可入厂。到工业区门口或厂区直接进门说"应聘"，当天可上岗。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>BOSS直聘</strong></td><td>直接跟老板聊，蓝白领都有，响应最快</td><td>应用市场搜"BOSS直聘"</td></tr>
+                    <tr><td><strong>58同城</strong></td><td>蓝领职位多，日结/周结/月结均有</td><td>nj.58.com</td></tr>
+                    <tr><td><strong>江宁开发区</strong></td><td>上汽大众/博世/中航等，常年大量招工</td><td>地铁1号线→东山，线下前往</td></tr>
+                    <tr><td><strong>浦口工业园</strong></td><td>制造业集中，招工量大，部分包住</td><td>地铁10号线→浦口</td></tr>
+                    <tr><td><strong>美团骑手</strong></td><td>外卖骑手，灵活自由，日收入120-280元</td><td>美团App→我的→成为骑手</td></tr>
+                    <tr><td><strong>顺丰速运招聘</strong></td><td>快递员/分拣员，稳定，有社保</td><td>careers.sf-express.com</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">到 <strong>江宁开发区东山街道</strong> 或 <strong>雨花台软件谷</strong>，进工厂/园区门口说"应聘"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或联系江宁东山路附近的劳务中介（免费介绍，不收求职者费用）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">入职时确认：①有无宿舍 ②试用期工资 ③是否签劳动合同 ④社保何时参保</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">通过中介找工厂，<strong>不要付任何介绍费</strong>（合法中介不收求职者费用）。如被要求收费，立即离开并拨打12333举报。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💻 白领方向（软件外包/IT/教育/汽车研发）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>南京白领特色：</strong>雨花台软件谷是全国最大软件产业基地之一，大量IT外包公司，对非技术类（测试/客服/售前）岗位门槛低；高校密集区，教培需求旺；汽车行业（江宁）需要大量设计/研发辅助岗。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>BOSS直聘</strong></td><td>IT/运营/客服/测试</td><td>软件谷公司首选</td></tr>
+                    <tr><td><strong>智联招聘</strong></td><td>行政/销售/教育</td><td>传统行业多</td></tr>
+                    <tr><td><strong>前程无忧51job</strong></td><td>各类白领岗位</td><td>大厂多，南京互联网</td></tr>
+                    <tr><td><strong>猎聘</strong></td><td>中高端IT/研发</td><td>有经验优先，薪资高</td></tr>
+                    <tr><td><strong>南京软件谷招聘平台</strong></td><td>IT/软件/测试</td><td>关注"南京软件谷"公众号</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">优先投递<strong>软件测试/客服/行政</strong>岗位，这三类门槛最低，南京需求量大</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">BOSS直聘可以直接发消息给HR，回复率比投简历高，主动说"我可以随时去面试"</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">如有教学能力，关注"南京家教网"或在BOSS直聘搜"教培"，1对1辅导收入高</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏗️ 劳务市场地址（南京）</div>
+                <table class="data-table">
+                  <thead><tr><th>劳务市场</th><th>地址</th><th>最佳时间</th><th>日结参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>下关劳务市场</strong></td><td>鼓楼区热河南路/下关滨江</td><td>早 6:00-8:00</td><td>120-220元</td></tr>
+                    <tr><td><strong>江宁劳务市场</strong></td><td>江宁区东山大道附近</td><td>早 6:00-8:00</td><td>130-230元</td></tr>
+                    <tr><td><strong>浦口劳务市场</strong></td><td>浦口区桥北片区</td><td>早 6:30-8:30</td><td>120-220元</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
             </div>
-            <div class="content-block">
-              <div class="block-title">💻 白领方向（软件外包/IT/教育）</div>
-              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>南京白领特色：</strong>南京软件谷（雨花台区）是全国最大软件产业基地之一，大量IT外包公司，对非技术类（测试/客服/售前）岗位门槛低。</div></div>
-              <table class="data-table">
-                <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>BOSS直聘</strong></td><td>IT/运营/客服</td><td>软件谷公司首选</td></tr>
-                  <tr><td><strong>智联招聘</strong></td><td>行政/销售/教育</td><td>传统行业多</td></tr>
-                  <tr><td><strong>前程无忧</strong></td><td>各类白领</td><td>大厂多</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div></div>
+          </div>
         </div>
 
+        <!-- 2.3 开通账户 -->
         <div class="accordion" id="acc-bank">
           <div class="accordion-header">
             <span class="acc-icon">🏦</span>
-            <div class="acc-title-block"><div class="acc-title">开通金融账户</div><div class="acc-sub">银行卡 + 实名认证</div><div class="acc-tags"><span class="acc-tag cheap">仅需身份证</span></div></div>
-            <span class="acc-arrow">▼</span>
-          </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">🏧 开银行卡</div>
-              <div class="steps">
-                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"邮政储蓄银行"或"南京银行"，找最近网点</div></div>
-                <div class="step"><span class="step-num">2</span><div class="step-content">带<strong>身份证原件</strong>，开借记卡，当天可用</div></div>
-                <div class="step"><span class="step-num">3</span><div class="step-content"><strong>南京银行</strong>是本地银行，对来宁人员开户较友好</div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">开通金融账户</div>
+              <div class="acc-sub">银行卡 + 微信/支付宝实名，收工资的基础</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">仅需身份证</span>
               </div>
             </div>
-          </div></div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🏧 开银行卡（推荐：南京银行 / 邮政储蓄银行）</div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>南京银行</strong>（本地银行）和<strong>邮政储蓄银行</strong>对来宁人员开户较友好，只需身份证，无需本地户籍。</div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">高德地图搜索"邮政储蓄银行"或"南京银行"，找最近网点</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">携带<strong>身份证原件</strong>，到柜台说"我想开一张借记卡"</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">填写开户申请表，设置密码，领取卡片（当天可用）</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">告知用人单位银行卡号，作为工资发放账户</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">近期银行管控趋严，部分银行对新来宁人员要求居住证明。如被拒，换一家银行，或先用微信零钱收款过渡。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💚 微信支付宝实名认证</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content"><strong>微信：</strong>我 → 服务 → 钱包 → 实名认证 → 上传身份证 + 人脸识别</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content"><strong>支付宝：</strong>我的 → 实名认证 → 身份证认证，同样人脸识别完成</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">实名后可接收收款、提现到银行卡，部分雇主直接发微信红包，实名是前提</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
 
-      </div>
+      </div><!-- end accordion-group ch2 -->
     </section>
 
+    <!-- ======= 第三章 ======= -->
     <section class="chapter" id="chapter3">
       <div class="chapter-header">
         <div class="chapter-icon green">🟢</div>
-        <div class="chapter-title"><h2>第三章：往上走（第 2-3 个月）</h2><p>南京落户政策宽松，IT/汽车/教育是高薪方向，目标月薪 8,500 元。</p></div>
+        <div class="chapter-title">
+          <h2>第三章：往上走（第 2-3 个月）</h2>
+          <p>稳定之后，建立长期保障、规划技能提升。南京落户政策宽松，大专可申请。目标：南京平均工资约8,500元/月。</p>
+        </div>
       </div>
+
       <div class="accordion-group">
 
+        <!-- 3.1 社保 -->
         <div class="accordion" id="acc-social">
           <div class="accordion-header">
             <span class="acc-icon">🛡️</span>
-            <div class="acc-title-block"><div class="acc-title">社保公积金</div><div class="acc-sub">南京社保是落户基础条件</div><div class="acc-tags"><span class="acc-tag cheap">公司参保最省</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">社保公积金</div>
+              <div class="acc-sub">公司参保 / 灵活就业参保，保障长期权益</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">公司参保最省</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">✅ 由公司参保</div>
-              <div class="steps">
-                <div class="step"><span class="step-num">1</span><div class="step-content">入职要求签<strong>劳动合同</strong>，明确社保缴纳</div></div>
-                <div class="step"><span class="step-num">2</span><div class="step-content">通过"<strong>我的南京App</strong>"→社保查询缴费情况</div></div>
-                <div class="step"><span class="step-num">3</span><div class="step-content">南京落户：大专+社保1年+稳定居住，可申请积分入户</div></div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">✅ 方式一：由公司参保（最省钱、最推荐）</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">入职时要求公司签订<strong>劳动合同</strong>，合同中注明社保参缴</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">公司会在次月为你办理社保开户并缴费</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">通过"<strong>我的南京 App</strong>"→ 社保查询，可查看缴费情况</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">若公司拒绝缴社保，可拨打 <strong>12333</strong> 举报。南京用人单位依法必须为员工缴纳社保。</div>
+                </div>
               </div>
-              <div class="info-cards"><div class="info-card"><div class="ic-title">南京社保热线</div><div class="ic-body">☎️ 025-12333<br>我的南京App查询</div></div></div>
+
+              <div class="content-block">
+                <div class="block-title">🔄 方式二：灵活就业自缴社保 ⚡</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">南京社保热线</div>
+                    <div class="ic-body">☎️ 025-12333<br>我的南京App查询</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">灵活就业费用参考 ⚡</div>
+                    <div class="ic-body">每月约600-1000元（全部自担）<br>最低档：约600元/月<br>以官方当年公告为准</div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开 <strong>我的南京 App</strong> → 搜索"灵活就业参保"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">按要求填写信息，选择缴费基数（最低档压力最小）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">绑定银行卡后每月自动扣款</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content">灵活就业参保费用全部自担，每月约600-1000元，普通求职者优先找有社保的正规用人单位。</div>
+                </div>
+                <div class="link-btns">
+                  <a href="http://hrss.nj.gov.cn" target="_blank" class="link-btn outline">🌐 南京人社局</a>
+                </div>
+              </div>
+
             </div>
-          </div></div>
+          </div>
         </div>
 
+        <!-- 3.2 居住证 -->
         <div class="accordion" id="acc-resident">
           <div class="accordion-header">
             <span class="acc-icon">📄</span>
-            <div class="acc-title-block"><div class="acc-title">南京居住证 &amp; 落户</div><div class="acc-sub">南京落户门槛低，大专可申请</div><div class="acc-tags"><span class="acc-tag cheap">免费办理</span></div></div>
-            <span class="acc-arrow">▼</span>
-          </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">📋 申请南京居住证 &amp; 落户</div>
-              <div class="steps">
-                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>我的南京App</strong>，申请居住证（全程网办）</div></div>
-                <div class="step"><span class="step-num">2</span><div class="step-content">或前往居住地派出所现场办理</div></div>
-                <div class="step"><span class="step-num">3</span><div class="step-content">南京落户：大专以上+社保1年，可直接申请落户，条件全国最宽松之一</div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">南京居住证 &amp; 落户路径</div>
+              <div class="acc-sub">南京落户门槛低，大专可申请，全国最宽松之一</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">免费办理</span>
               </div>
             </div>
-          </div></div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📋 第一步：申请南京居住证</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">申请条件</div>
+                    <div class="ic-body">非南京户籍<br>在宁居住30天以上<br>有合法住所（合同/房东证明）<br>有就业或就学证明</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">所需材料</div>
+                    <div class="ic-body">身份证原件<br>租房合同或居住证明<br>劳动合同或营业执照<br>1寸照片（可在自助机拍）</div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开 <strong>我的南京 App</strong> → 搜索"居住证" → 在线申请（全程网办）</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或携带材料前往<strong>居住地辖区派出所</strong>办理，一般15个工作日内领证</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">居住证有效期一年，每年续签，保持居住和就业连续性</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏡 第二步：南京落户（全国最宽松之一）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>南京落户超宽松：</strong>大专以上学历 + 社保缴纳满1年，即可申请落户南京，是全国落户最容易的城市之一。有学历的务必尽快规划。</div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">大专以上：参保满1年后，通过"我的南京App"→"落户申请"即可提交</div></div>
+                  <div class="step"><span class="step-num">2</span><td>本科及以上：参保不足1年也可申请落户（条件更宽松）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">无学历者：通过积分落户，累积居住/社保/职业资格积分申请，需更长时间</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
 
+        <!-- 3.3 技能变现 -->
         <div class="accordion" id="acc-skill">
           <div class="accordion-header">
             <span class="acc-icon">📈</span>
-            <div class="acc-title-block"><div class="acc-title">技能变现 → 达到南京平均工资</div><div class="acc-sub">南京2024年均薪约8500元/月，IT/汽车/教育是主要方向</div><div class="acc-tags"><span class="acc-tag fast">目标均薪8500</span></div></div>
+            <div class="acc-title-block">
+              <div class="acc-title">技能变现 → 达到南京平均工资</div>
+              <div class="acc-sub">南京2024年均薪约8500元/月，IT/汽车/教育是主要方向</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">目标均薪8500</span>
+              </div>
+            </div>
             <span class="acc-arrow">▼</span>
           </div>
-          <div class="accordion-body"><div class="accordion-body-inner">
-            <div class="content-block">
-              <div class="block-title">🚀 南京特有技能变现机会</div>
-              <table class="data-table">
-                <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
-                <tbody>
-                  <tr><td><strong>外卖/骑手</strong></td><td>4,000-7,000元</td><td>7,000-11,000元</td><td>熟悉新街口/河西/江宁路线</td></tr>
-                  <tr><td><strong>IT测试/客服</strong></td><td>4,000-6,000元</td><td>7,000-10,000元</td><td>南京软件谷，IT外包公司多，门槛低</td></tr>
-                  <tr><td><strong>汽车技工</strong></td><td>4,000-7,000元</td><td>8,000-12,000元</td><td>江宁开发区汽车产业，考职业证</td></tr>
-                  <tr><td><strong>教培老师/辅导</strong></td><td>3,500-5,000元</td><td>6,000-10,000元</td><td>高校密集、家长有需求，1对1辅导高收入</td></tr>
-                  <tr><td><strong>网约车司机</strong></td><td>5,000-8,000元</td><td>8,000-12,000元</td><td>需驾照，南京出行需求大</td></tr>
-                  <tr><td><strong>IT技术</strong></td><td>—</td><td>10,000-18,000元</td><td>软件谷/江北新区IT需求极大</td></tr>
-                </tbody>
-              </table>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">💡 南京平均工资参考 ⚡</div>
+                <div class="alert info">
+                  <span class="alert-icon">📊</span>
+                  <div class="alert-content">南京2023年城镇非私营单位就业人员年平均工资约 <strong>10万元/年（约8,300元/月）</strong>。私营单位约 6-7万元/年（约5,500-6,000元/月）。月薪6,000-8,000元是最实际的阶段目标。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🚀 南京特有技能变现机会</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>南京核心产业：</strong>软件信息（雨花台软件谷/江北新区）、电子制造（新工业园）、汽车零部件（江宁开发区）、教育培训（高校密集带来的家教市场）、新能源（蔚来汽车等落地南京）。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>外卖/骑手</strong></td><td>4,000-7,000元</td><td>7,000-11,000元</td><td>熟悉新街口/河西/江宁路线，高峰接单</td></tr>
+                    <tr><td><strong>IT软件测试/客服</strong></td><td>4,000-6,000元</td><td>7,000-10,000元</td><td>雨花台软件谷，IT外包公司多，门槛低</td></tr>
+                    <tr><td><strong>汽车技工/质检</strong></td><td>4,000-7,000元</td><td>8,000-12,000元</td><td>江宁开发区汽车产业，考职业证书加薪</td></tr>
+                    <tr><td><strong>家教/教培老师</strong></td><td>3,500-5,000元</td><td>6,000-10,000元</td><td>高校密集、家长需求大，1对1辅导高收入</td></tr>
+                    <tr><td><strong>网约车司机</strong></td><td>5,000-8,000元</td><td>8,000-12,000元</td><td>需驾照，南京出行需求大，选滴滴/T3</td></tr>
+                    <tr><td><strong>电子制造技工</strong></td><td>4,000-6,000元</td><td>7,000-9,000元</td><td>新工业园区/栖霞区电子厂，考技能证书</td></tr>
+                    <tr><td><strong>IT编程/开发</strong></td><td>—</td><td>10,000-18,000元</td><td>软件谷/江北新区IT需求极大，前期投入</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📚 免费技能学习资源</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">南京技能提升补贴</div>
+                    <div class="ic-body">参加官方认定培训机构课程可申请政府补贴，最高报销大部分学费。入口：我的南京App → 搜"技能提升补贴"</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">免费在线学习</div>
+                    <div class="ic-body">B站搜索技能教程（Python/PS/Excel等）<br>网易云课堂、腾讯课堂均有免费课程</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">南京图书馆资源</div>
+                    <div class="ic-body">免费办阅读证，借阅职业技能类书籍，部分分馆提供免费职业培训课程</div>
+                  </div>
+                </div>
+              </div>
+
             </div>
-          </div></div>
+          </div>
         </div>
 
-      </div>
+      </div><!-- end accordion-group ch3 -->
     </section>
 
+    <!-- ======= 城市资源速查 ======= -->
     <section class="chapter" id="resources">
       <div class="chapter-header">
         <div class="chapter-icon yellow">⚡</div>
-        <div class="chapter-title"><h2>南京资源速查</h2><p>所有关键热线、地址、平台入口，一页汇总。</p></div>
+        <div class="chapter-title">
+          <h2>南京资源速查</h2>
+          <p>所有关键热线、地址、平台入口，一页汇总。</p>
+        </div>
       </div>
+
       <div style="background:#fff;border-radius:12px;border:1.5px solid #e0e0e0;overflow:hidden;">
         <table class="data-table" style="margin:0;border:none;">
           <thead><tr><th>类别</th><th>名称</th><th>联系方式 / 地址</th><th>说明</th></tr></thead>
           <tbody>
-            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>南京市民热线</td><td><strong>12345</strong></td><td>政府服务</td></tr>
-            <tr><td>急救</td><td><strong>120</strong></td><td>医疗急救</td></tr>
-            <tr><td>报警</td><td><strong>110</strong></td><td>人身安全</td></tr>
-            <tr><td><strong>🏠 救助站</strong></td><td>南京市救助管理站</td><td>建邺区南湖路11号 ⚡请核实<br>☎ 025-84459110</td><td>24小时，免费住宿餐饮</td></tr>
-            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td><strong>025-12333</strong></td><td>讨薪、劳动争议</td></tr>
-            <tr><td>法律援助热线</td><td><strong>12348</strong></td><td>免费法律咨询</td></tr>
-            <tr><td><strong>🏛️ 政务服务</strong></td><td>我的南京App</td><td>应用市场搜"我的南京"</td><td>社保/居住证/落户一站式</td></tr>
-            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>南京图书馆</td><td>玄武区成贤街66号<br>地铁3号线鸡鸣寺站</td><td>免费Wi-Fi+充电，9:00-21:00</td></tr>
-            <tr><td>南京血液中心</td><td>秦淮区中山南路附近 ⚡请核实<br>☎ 025-84434100 ⚡请核实</td><td>微信搜"南京献血"</td></tr>
-            <tr><td rowspan="2"><strong>🏗️ 劳务市场</strong></td><td>下关劳务市场</td><td>鼓楼区下关区域</td><td>日结工，早6:00-8:00到场</td></tr>
-            <tr><td>江宁劳务市场</td><td>江宁区东山街道附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>南京市民热线</td><td data-copy="12345"><strong>12345</strong></td><td>政府服务、投诉举报</td></tr>
+            <tr><td>急救</td><td data-copy="120"><strong>120</strong></td><td>医疗急救</td></tr>
+            <tr><td>报警</td><td data-copy="110"><strong>110</strong></td><td>治安、人身安全</td></tr>
+            <tr><td rowspan="2"><strong>🏠 救助站</strong></td><td>南京市救助管理站</td><td>建邺区南湖路11号 ⚡请核实<br>☎ 025-84459110</td><td>24小时，免费住宿餐饮</td></tr>
+            <tr><td>救助热线</td><td data-copy="025-84459110"><strong>025-84459110</strong></td><td>可申请派车接送</td></tr>
+            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td data-copy="12333"><strong>12333</strong></td><td>讨薪、劳动争议</td></tr>
+            <tr><td>法律援助热线</td><td data-copy="12348"><strong>12348</strong></td><td>免费法律咨询</td></tr>
+            <tr><td><strong>🏛️ 政务服务</strong></td><td>我的南京App</td><td>应用市场搜"我的南京"</td><td>社保/居住证/落户/求职驿站一站式</td></tr>
+            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>南京图书馆总馆</td><td>玄武区成贤街66号<br>地铁3号线鸡鸣寺站附近</td><td>免费Wi-Fi+充电，周二至周日9:00-21:00</td></tr>
+            <tr><td>南京血液中心</td><td>鼓楼区中山路156号 ⚡请核实<br>☎ 025-84434100 ⚡请核实</td><td>献血点查询：微信搜"南京献血"</td></tr>
+            <tr><td rowspan="3"><strong>🏗️ 劳务市场</strong></td><td>下关劳务市场</td><td>鼓楼区热河南路/下关滨江区域</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td>江宁劳务市场</td><td>江宁区东山大道附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td>浦口劳务市场</td><td>浦口区桥北片区</td><td>日结工，早6:30-8:30到场</td></tr>
+            <tr><td rowspan="2"><strong>🏭 主要工业区</strong></td><td>江宁开发区</td><td>江宁区东山街道（地铁1号线→东山）</td><td>上汽大众/博世/飞利浦等，大量招工</td></tr>
+            <tr><td>雨花台软件谷</td><td>雨花台区软件大道（地铁3号线）</td><td>全国最大软件产业基地之一，IT岗</td></tr>
             <tr><td rowspan="4"><strong>💼 求职平台</strong></td><td>BOSS直聘</td><td><a href="https://www.zhipin.com" target="_blank">zhipin.com</a></td><td>全类型，软件谷首选</td></tr>
             <tr><td>智联招聘</td><td><a href="https://www.zhaopin.com" target="_blank">zhaopin.com</a></td><td>传统行业多</td></tr>
-            <tr><td>58同城</td><td><a href="https://nj.58.com" target="_blank">nj.58.com</a></td><td>蓝领/日结多</td></tr>
-            <tr><td>安居客</td><td><a href="https://nj.anjuke.com" target="_blank">nj.anjuke.com</a></td><td>租房找房</td></tr>
+            <tr><td>58同城南京</td><td><a href="https://nj.58.com" target="_blank">nj.58.com</a></td><td>蓝领/日结多</td></tr>
+            <tr><td>安居客南京</td><td><a href="https://nj.anjuke.com" target="_blank">nj.anjuke.com</a></td><td>租房找房</td></tr>
           </tbody>
         </table>
       </div>
-      <div style="margin-top:16px;"><div class="alert warning"><span class="alert-icon">⚡</span><div class="alert-content">以上信息均为参考，可能随时变更。如遇失效，请搜索机构名称或拨打12345咨询。</div></div></div>
+
+      <div style="margin-top:16px;">
+        <div class="alert warning">
+          <span class="alert-icon">⚡</span>
+          <div class="alert-content">以上所有信息均为参考，政策/地址/电话可能随时变更。如遇信息失效，请直接搜索对应机构名称获取最新信息，或拨打 12345 咨询。</div>
+        </div>
+      </div>
+
     </section>
 
   </main>
-</div>
+</div><!-- end city-layout -->
+
 <footer>
   <p>南京生存指南 · 城市生存手册 · 信息仅供参考，使用前请自行核实</p>
-  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a></p>
+  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a> · <a href="mailto:feedback@example.com">纠错/反馈</a></p>
 </footer>
+
 <script src="../assets/app.js"></script>
 </body>
 </html>
