@@ -3,23 +3,557 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>武汉生存指南 — 城市生存手册</title>
+  <title>武汉生存指南 — 从零开始，达到城市平均工资</title>
+  <meta name="description" content="武汉城市生存详细指南：住所、食物、赚钱、找工作、社保，从0到月入均薪7200元。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body data-city="wuhan">
+
 <header class="city-header">
   <div class="inner">
     <a href="../index.html" class="back-btn">← 返回</a>
     <div class="city-header-title">武汉<span>生存指南</span></div>
+    <nav class="chapter-nav">
+      <a href="#chapter1">🔴 活下去</a>
+      <a href="#chapter2">🔵 站稳脚</a>
+      <a href="#chapter3">🟢 往上走</a>
+      <a href="#resources">⚡ 速查</a>
+    </nav>
   </div>
 </header>
-<div class="coming-soon">
-  <div class="emoji">🚧</div>
-  <h2>武汉版本建设中</h2>
-  <p>平均工资参考：<strong>约7,200元/月</strong></p>
-  <p>武汉版本内容正在整理中，预计近期上线。<br>目前可先参考<a href="shenzhen.html">深圳版</a>的框架，很多方法全国通用。</p>
-  <a href="../index.html" class="link-btn primary" style="display:inline-flex;margin-top:8px;">← 返回城市选择</a>
+
+<div class="emergency-bar">
+  <div class="inner">
+    <span class="emergency-label">⚡ 紧急求助</span>
+    <div class="emergency-item"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>救助站</span><span class="num">027-83768781</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
+  </div>
 </div>
+
+<div class="city-layout">
+  <aside class="sidebar">
+    <div class="search-box"><input type="text" id="search-input" placeholder="🔍 搜索关键词…"></div>
+    <div class="sidebar-toc">
+      <h4>目录</h4>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-sleep">今晚睡哪里</a>
+          <a class="toc-item" href="#acc-food">今天吃什么</a>
+          <a class="toc-item" href="#acc-earn">今天赚到钱</a>
+          <a class="toc-item" href="#acc-comm">通信保障</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-house">找稳定住所</a>
+          <a class="toc-item" href="#acc-job">找到工作</a>
+          <a class="toc-item" href="#acc-bank">开通账户</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-social">社保公积金</a>
+          <a class="toc-item" href="#acc-resident">居住证路径</a>
+          <a class="toc-item" href="#acc-skill">技能变现</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div>
+        <div class="toc-items"><a class="toc-item" href="#resources">所有热线 &amp; 地址</a></div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="content-area">
+    <div class="progress-hint">
+      <span>📖</span>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div>
+        <div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <section class="chapter" id="chapter1">
+      <div class="chapter-header">
+        <div class="chapter-icon red">🔴</div>
+        <div class="chapter-title">
+          <h2>第一章：活下去（前 7 天）</h2>
+          <p>武汉是华中第一城，九省通衢，高校资源全国第二，光谷互联网+汽车制造是主要就业方向，生活成本低于一线。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-sleep">
+          <div class="accordion-header">
+            <span class="acc-icon">🛏️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今晚睡哪里</div>
+              <div class="acc-sub">武汉城中村集中，低价住所选择多</div>
+              <div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">低价选项</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🆓 选项一：武汉市救助管理站（免费）</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">武汉市救助管理站</div>
+                  <div class="ic-body">📍 江汉区发展大道669号 ⚡请核实<br>☎️ 027-83768781（24小时）<br>🚇 地铁4号线→发展大道站附近</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">洪山区救助站</div>
+                  <div class="ic-body">📍 洪山区珞狮路附近 ⚡请核实<br>☎️ 027-87693120 ⚡请核实</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>027-83768781</strong>，告知位置，可申请免费接送</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带身份证前往，说明来汉求职、无住所、无收入</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">审核通过提供住宿+三餐，可住7-10天</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">💸 选项二：青年旅社（50-100元/晚）</div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>江汉区</strong></td><td>汉口火车站/江汉路</td><td>55-100元/晚</td><td>近火车站，交通极便利</td></tr>
+                  <tr><td><strong>武昌区</strong></td><td>武汉站/楚河汉街</td><td>60-100元/晚</td><td>高铁站旁，商业发达</td></tr>
+                  <tr><td><strong>洪山区</strong></td><td>关山大道/光谷广场</td><td>55-90元/晚</td><td>互联网/高校区，求职方便</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏘️ 选项三：城中村短租（武汉城中村密集）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>武汉城中村特色：</strong>武汉城中村众多且分布广，是新来汉人员的宝藏，月租500-900元可以住得非常舒适。</div></div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>代表城中村/片区</th><th>单间月租</th><th>适合方向</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>洪山区</strong></td><td>杨家湾、南湖花园城、珞南街</td><td>600-900元</td><td>互联网/高校区/光谷</td></tr>
+                  <tr><td><strong>东湖高新区</strong></td><td>流芳园、高新二路城中村</td><td>500-800元</td><td>科技/光谷产业</td></tr>
+                  <tr><td><strong>汉阳区</strong></td><td>墨水湖、钟家村附近村落</td><td>500-800元</td><td>制造/汽车/化工</td></tr>
+                  <tr><td><strong>江夏区</strong></td><td>纸坊、藏龙岛附近</td><td>400-700元</td><td>制造/汽车产业</td></tr>
+                  <tr><td><strong>武汉开发区</strong></td><td>车谷、沌口附近</td><td>500-800元</td><td>汽车制造（东风/本田）</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开58同城搜"武汉日租/单间 城中村"，筛选城郊低价</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">关山大道、珞雄路附近城中村是光谷人最多的居住区，房源极多</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-food">
+          <div class="accordion-header">
+            <span class="acc-icon">🍚</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天吃什么（5-15元吃饱）</div>
+              <div class="acc-sub">武汉早点/热干面/豆皮，5元吃好早餐</div>
+              <div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">5-15元</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🎓 选项一：高校食堂（5-12元/餐）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>武汉高校最多之一：</strong>武汉有89所高等院校，其中光谷区域（东湖高新区）高校密集，食堂相对开放，是武汉吃饭最便宜的方式。</div></div>
+              <table class="data-table">
+                <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>武汉科技大学</strong></td><td>洪山区和平大道947号</td><td>相对开放</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>湖北工业大学</strong></td><td>洪山区南李路28号</td><td>较为宽松</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>中南民族大学</strong></td><td>洪山区民族大道182号</td><td>开放度较高</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>武汉轻工大学</strong></td><td>东西湖区常青花园</td><td>较为开放</td><td>5-10元/餐</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🍜 武汉特色低价美食</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content">武汉早点文化全国闻名，热干面/豆皮/糊米酒，3-6元就能吃一顿丰盛早餐，是全国性价比最高的城市之一。</div></div>
+              <table class="data-table">
+                <thead><tr><th>食物</th><th>价格</th><th>哪里找</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>热干面</strong></td><td>5-8元/份</td><td>遍布全市，城中村内最便宜</td></tr>
+                  <tr><td><strong>豆皮</strong></td><td>5-8元/份</td><td>汉口、武昌老社区早点摊</td></tr>
+                  <tr><td><strong>糊米酒/豆花</strong></td><td>3-5元</td><td>早点摊，全市遍布</td></tr>
+                  <tr><td><strong>武汉烤鱼（城中村平价）</strong></td><td>15-25元/份</td><td>洪山区城中村内，量大实惠</td></tr>
+                  <tr><td><strong>城中村小饭馆盒饭</strong></td><td>8-12元</td><td>关山大道、杨家湾等城中村</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏪 临期食品 &amp; 便利店折扣</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"好特卖"，武汉洪山/江汉/武昌均有门店</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">武汉盒马、山姆每天晚8点后打折临期食品</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">关山大道菜市场下午5点后便宜，光谷周边超市折扣也多</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-earn">
+          <div class="accordion-header">
+            <span class="acc-icon">💰</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天能赚到钱（零门槛，当天结算）</div>
+              <div class="acc-sub">零工平台、劳务市场，当天可到账</div>
+              <div class="acc-tags"><span class="acc-tag fast">当天到账</span><span class="acc-tag cheap">80-300元/天</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">📱 方案一：零工平台</div>
+              <table class="data-table">
+                <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>80-250元</td><td>微信搜"美团跑腿"</td></tr>
+                  <tr><td><strong>闪送骑手</strong></td><td>同城急送</td><td>100-320元</td><td>闪送App</td></tr>
+                  <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>80-180元</td><td>货拉拉App</td></tr>
+                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖配送</td><td>80-250元</td><td>美团App→骑手</td></tr>
+                  <tr><td><strong>58速聘日结</strong></td><td>各类日结工</td><td>80-200元</td><td>58同城App</td></tr>
+                </tbody>
+              </table>
+              <div class="alert info"><span class="alert-icon">💡</span><div class="alert-content"><strong>武汉特色：</strong>光谷（东湖高新区）互联网公司聚集，商务急送/闪送需求大；武汉大学/华中科技大学校园周边外卖需求极旺。</div></div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏗️ 方案二：劳务市场</div>
+              <table class="data-table">
+                <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>余家头劳务市场</strong></td><td>武昌区余家头附近</td><td>早上 6:00-8:00</td><td>120-220元</td></tr>
+                  <tr><td><strong>汉正街劳务市场</strong></td><td>硚口区汉正街附近</td><td>早上 6:00-8:00</td><td>120-220元</td></tr>
+                  <tr><td><strong>沌口劳务市场</strong></td><td>武汉开发区沌口附近</td><td>早上 6:00-8:00</td><td>130-250元</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🩸 方案三：无偿献血（补贴约100-400元）⚡</div>
+              <table class="data-table">
+                <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>武汉血液中心</strong></td><td>武昌区南湖大道117号 ⚡请核实</td><td>周一至周日 8:30-17:00</td></tr>
+                  <tr><td><strong>江汉路献血屋</strong></td><td>江汉区江汉路步行街</td><td>9:00-17:00</td></tr>
+                  <tr><td><strong>光谷献血点</strong></td><td>洪山区光谷广场附近</td><td>9:00-17:00</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-comm">
+          <div class="accordion-header">
+            <span class="acc-icon">📱</span>
+            <div class="acc-title-block">
+              <div class="acc-title">基础通信保障</div>
+              <div class="acc-sub">最便宜电话卡、公共Wi-Fi</div>
+              <div class="acc-tags"><span class="acc-tag cheap">9元/月起</span><span class="acc-tag free">免费Wi-Fi</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">📲 电话卡 + Wi-Fi</div>
+              <table class="data-table">
+                <thead><tr><th>场所/方式</th><th>说明</th><th>费用</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>中国电信/移动/联通</strong></td><td>9元月套餐，带身份证到营业厅</td><td>9元/月</td></tr>
+                  <tr><td><strong>武汉图书馆</strong></td><td>免费Wi-Fi+充电，武昌区公正路1号，9:00-20:00</td><td>免费</td></tr>
+                  <tr><td><strong>武汉地铁站</strong></td><td>部分站点有免费Wi-Fi</td><td>免费</td></tr>
+                  <tr><td><strong>麦当劳/肯德基</strong></td><td>点餐后免费Wi-Fi+充电</td><td>13元起消费</td></tr>
+                  <tr><td><strong>光谷步行街附近商场</strong></td><td>各商场内有免费Wi-Fi覆盖</td><td>免费</td></tr>
+                </tbody>
+              </table>
+              <div class="alert success"><span class="alert-icon">✅</span><div class="alert-content"><strong>推荐：武汉图书馆</strong>（武昌区公正路1号，地铁4号线武汉站附近），免费Wi-Fi+充电+座位，周二至周日 9:00-20:00。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="chapter2">
+      <div class="chapter-header">
+        <div class="chapter-icon blue">🔵</div>
+        <div class="chapter-title">
+          <h2>第二章：站稳脚（第 2-4 周）</h2>
+          <p>武汉生活成本低，光谷互联网、武汉开发区汽车制造是最好的起步方向。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-house">
+          <div class="accordion-header">
+            <span class="acc-icon">🏠</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到稳定住所</div>
+              <div class="acc-sub">城中村/郊区合租，月租500-1000元</div>
+              <div class="acc-tags"><span class="acc-tag free">驿站免费</span><span class="acc-tag cheap">合租500元起</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🏢 选项一：武汉求职驿站（免费）⚡</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">各区人社局热线 ⚡</div>
+                  <div class="ic-body">江汉区：027-82818888 ⚡请核实<br>洪山区：027-87643456 ⚡请核实<br>武昌区：027-88866888 ⚡请核实<br>市人社局：027-12333</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>鄂汇办App</strong>（湖北政务），搜索"求职驿站"</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">或拨打027-12333，询问求职驿站申请流程</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏘️ 选项二：城中村/郊区合租（月租500-1000元）</div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>代表地点</th><th>合租价格</th><th>通勤参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>洪山区</strong></td><td>杨家湾、南湖、光谷城中村</td><td>600-900元</td><td>地铁2/8/11号线，光谷方向</td></tr>
+                  <tr><td><strong>东湖高新</strong></td><td>流芳、关东、光谷科技城周边</td><td>600-900元</td><td>地铁11号线，光谷核心</td></tr>
+                  <tr><td><strong>汉阳区</strong></td><td>钟家村、墨水湖、四新</td><td>500-800元</td><td>地铁6号线，车谷方向</td></tr>
+                  <tr><td><strong>江夏区</strong></td><td>纸坊城区、藏龙岛</td><td>400-700元</td><td>地铁8/16号线，较远</td></tr>
+                </tbody>
+              </table>
+              <div class="link-btns">
+                <a href="https://wh.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客武汉</a>
+                <a href="https://wh.58.com" target="_blank" class="link-btn outline">📋 58同城武汉</a>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-job">
+          <div class="accordion-header">
+            <span class="acc-icon">💼</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到工作</div>
+              <div class="acc-sub">光谷互联网/武汉开发区汽车制造，招聘平台选择</div>
+              <div class="acc-tags"><span class="acc-tag fast">蓝领当天入职</span><span class="acc-tag cheap">光谷互联网机会多</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🔧 蓝领方向</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>武汉蓝领首选：</strong>武汉经济技术开发区（车谷）是东风汽车/本田/雷诺等车企集聚地，常年大量招聘工人（包住包吃）。</div></div>
+              <table class="data-table">
+                <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>BOSS直聘</strong></td><td>直接联系老板，响应快</td><td>应用市场</td></tr>
+                  <tr><td><strong>58同城</strong></td><td>蓝领/日结多</td><td>wh.58.com</td></tr>
+                  <tr><td><strong>武汉开发区（车谷）</strong></td><td>汽车制造，东风本田等，常年招聘</td><td>地铁6号线，线下前往</td></tr>
+                  <tr><td><strong>沌口工业区</strong></td><td>制造业聚集，大量工厂直招</td><td>线下前往</td></tr>
+                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖，灵活收入</td><td>美团App→骑手</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">💻 白领方向（光谷互联网/金融/教育）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>光谷（东湖高新区）</strong>是武汉互联网/科技的核心，小米武汉总部、斗鱼直播、卷皮网等大量互联网公司聚集，白领岗位需求极大。</div></div>
+              <table class="data-table">
+                <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>BOSS直聘</strong></td><td>互联网/运营/客服</td><td>光谷公司首选平台</td></tr>
+                  <tr><td><strong>智联招聘</strong></td><td>行政/销售/文员</td><td>传统行业多</td></tr>
+                  <tr><td><strong>前程无忧</strong></td><td>各类白领岗位</td><td>大厂岗位多</td></tr>
+                  <tr><td><strong>武汉人才网</strong></td><td>本地特色招聘</td><td>武汉本地公司多</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-bank">
+          <div class="accordion-header">
+            <span class="acc-icon">🏦</span>
+            <div class="acc-title-block">
+              <div class="acc-title">开通金融账户</div>
+              <div class="acc-sub">银行卡 + 实名认证</div>
+              <div class="acc-tags"><span class="acc-tag cheap">仅需身份证</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">🏧 开银行卡</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"邮政储蓄银行"或"农业银行"，找最近网点</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带<strong>身份证原件</strong>，开借记卡，当天可用</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">武汉本地还可选<strong>汉口银行</strong>（武汉本土银行），开户友好</div></div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="chapter3">
+      <div class="chapter-header">
+        <div class="chapter-icon green">🟢</div>
+        <div class="chapter-title">
+          <h2>第三章：往上走（第 2-3 个月）</h2>
+          <p>武汉落户政策较宽松，光谷高薪岗位多，目标月薪 7,200 元，之后往更高走。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-social">
+          <div class="accordion-header">
+            <span class="acc-icon">🛡️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">社保公积金</div>
+              <div class="acc-sub">武汉社保是落户的核心条件之一</div>
+              <div class="acc-tags"><span class="acc-tag cheap">公司参保最省</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">✅ 由公司参保（最推荐）</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">入职要求签<strong>劳动合同</strong>，明确社保缴纳</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">通过"<strong>鄂汇办App</strong>"→社保查询，查缴费情况</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">武汉落户：大专+社保+居住证满1年可申请，政策相对宽松</div></div>
+              </div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">武汉社保热线</div>
+                  <div class="ic-body">☎️ 027-12333<br>鄂汇办App查询<br>官网：rsj.wuhan.gov.cn ⚡请核实</div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-resident">
+          <div class="accordion-header">
+            <span class="acc-icon">📄</span>
+            <div class="acc-title-block">
+              <div class="acc-title">武汉居住证 &amp; 落户</div>
+              <div class="acc-sub">武汉落户政策宽松，大专可申请</div>
+              <div class="acc-tags"><span class="acc-tag cheap">免费办理</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">📋 申请武汉居住证 &amp; 落户</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>鄂汇办App</strong>，申请居住证</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">或前往居住地所在社区/派出所现场办理</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">武汉大专以上学历可直接落户，本科生更优惠</div></div>
+              </div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>武汉抢人政策：</strong>武汉是全国率先实施"大学生留汉"政策的城市，大学生在汉就业可享受房租补贴/落户优惠。毕业生务必了解相关政策。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-skill">
+          <div class="accordion-header">
+            <span class="acc-icon">📈</span>
+            <div class="acc-title-block">
+              <div class="acc-title">技能变现 → 达到武汉平均工资</div>
+              <div class="acc-sub">武汉2024年均薪约7200元/月，光谷/汽车/直播是特色方向</div>
+              <div class="acc-tags"><span class="acc-tag fast">目标均薪7200</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">🚀 武汉特有技能变现机会</div>
+              <table class="data-table">
+                <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>外卖/骑手</strong></td><td>3,500-6,000元</td><td>6,000-10,000元</td><td>光谷/武大/华科校区，高峰期接单</td></tr>
+                  <tr><td><strong>汽车技工</strong></td><td>4,000-7,000元</td><td>7,000-12,000元</td><td>武汉车谷需求大，考取职业资格证</td></tr>
+                  <tr><td><strong>直播主播/运营</strong></td><td>3,500-5,500元</td><td>6,000-15,000元</td><td>斗鱼/虎牙在汉，武汉直播行业全国TOP3</td></tr>
+                  <tr><td><strong>互联网运营/客服</strong></td><td>4,000-6,000元</td><td>7,000-10,000元</td><td>光谷互联网公司聚集，进入大厂机会多</td></tr>
+                  <tr><td><strong>教培辅导老师</strong></td><td>3,500-5,000元</td><td>6,000-10,000元</td><td>武汉高校多、学生多，教培需求旺</td></tr>
+                  <tr><td><strong>IT技术</strong></td><td>—</td><td>8,000-15,000元</td><td>光谷软件园需求大，成本低</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="resources">
+      <div class="chapter-header">
+        <div class="chapter-icon yellow">⚡</div>
+        <div class="chapter-title">
+          <h2>武汉资源速查</h2>
+          <p>所有关键热线、地址、平台入口，一页汇总。</p>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:12px;border:1.5px solid #e0e0e0;overflow:hidden;">
+        <table class="data-table" style="margin:0;border:none;">
+          <thead><tr><th>类别</th><th>名称</th><th>联系方式 / 地址</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>武汉市民热线</td><td><strong>12345</strong></td><td>政府服务</td></tr>
+            <tr><td>急救</td><td><strong>120</strong></td><td>医疗急救</td></tr>
+            <tr><td>报警</td><td><strong>110</strong></td><td>人身安全</td></tr>
+            <tr><td><strong>🏠 救助站</strong></td><td>武汉市救助管理站</td><td>江汉区发展大道669号 ⚡请核实<br>☎ 027-83768781</td><td>24小时，免费住宿餐饮</td></tr>
+            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td><strong>027-12333</strong></td><td>讨薪、劳动争议</td></tr>
+            <tr><td>法律援助热线</td><td><strong>12348</strong></td><td>免费法律咨询</td></tr>
+            <tr><td><strong>🏛️ 政务服务</strong></td><td>鄂汇办App</td><td>应用市场搜"鄂汇办"</td><td>社保/居住证/落户一站式</td></tr>
+            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>武汉图书馆</td><td>武昌区公正路1号<br>地铁4号线武汉站附近</td><td>免费Wi-Fi+充电，9:00-20:00</td></tr>
+            <tr><td>武汉血液中心</td><td>武昌区南湖大道117号 ⚡请核实<br>☎ 027-88801999 ⚡请核实</td><td>微信搜"武汉血液中心"</td></tr>
+            <tr><td rowspan="2"><strong>🏗️ 劳务市场</strong></td><td>余家头劳务市场</td><td>武昌区余家头附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td>沌口劳务市场</td><td>武汉开发区沌口附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td rowspan="4"><strong>💼 求职平台</strong></td><td>BOSS直聘</td><td><a href="https://www.zhipin.com" target="_blank">zhipin.com</a></td><td>全类型，光谷公司首选</td></tr>
+            <tr><td>智联招聘</td><td><a href="https://www.zhaopin.com" target="_blank">zhaopin.com</a></td><td>传统企业多</td></tr>
+            <tr><td>58同城</td><td><a href="https://wh.58.com" target="_blank">wh.58.com</a></td><td>蓝领/日结多</td></tr>
+            <tr><td>安居客</td><td><a href="https://wh.anjuke.com" target="_blank">wh.anjuke.com</a></td><td>租房找房</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:16px;">
+        <div class="alert warning">
+          <span class="alert-icon">⚡</span>
+          <div class="alert-content">以上所有信息均为参考，政策/地址/电话可能随时变更。如遇失效，请搜索机构名称或拨打12345咨询。</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>武汉生存指南 · 城市生存手册 · 信息仅供参考，使用前请自行核实</p>
+  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a> · <a href="mailto:feedback@example.com">纠错/反馈</a></p>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>

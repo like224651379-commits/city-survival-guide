@@ -3,23 +3,635 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>广州生存指南 — 城市生存手册</title>
+  <title>广州生存指南 — 从零开始，达到城市平均工资</title>
+  <meta name="description" content="广州城市生存详细指南：住所、食物、赚钱、找工作、社保，从0到月入均薪9500元。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body data-city="guangzhou">
+
 <header class="city-header">
   <div class="inner">
     <a href="../index.html" class="back-btn">← 返回</a>
     <div class="city-header-title">广州<span>生存指南</span></div>
+    <nav class="chapter-nav">
+      <a href="#chapter1">🔴 活下去</a>
+      <a href="#chapter2">🔵 站稳脚</a>
+      <a href="#chapter3">🟢 往上走</a>
+      <a href="#resources">⚡ 速查</a>
+    </nav>
   </div>
 </header>
-<div class="coming-soon">
-  <div class="emoji">🚧</div>
-  <h2>广州版本建设中</h2>
-  <p>平均工资参考：<strong>约9,500元/月</strong></p>
-  <p>广州版本内容正在整理中，预计近期上线。<br>目前可先参考<a href="shenzhen.html">深圳版</a>的框架，很多方法全国通用。</p>
-  <a href="../index.html" class="link-btn primary" style="display:inline-flex;margin-top:8px;">← 返回城市选择</a>
+
+<div class="emergency-bar">
+  <div class="inner">
+    <span class="emergency-label">⚡ 紧急求助</span>
+    <div class="emergency-item"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>救助站</span><span class="num">020-81293799</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
+  </div>
 </div>
+
+<div class="city-layout">
+  <aside class="sidebar">
+    <div class="search-box"><input type="text" id="search-input" placeholder="🔍 搜索关键词…"></div>
+    <div class="sidebar-toc">
+      <h4>目录</h4>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-sleep">今晚睡哪里</a>
+          <a class="toc-item" href="#acc-food">今天吃什么</a>
+          <a class="toc-item" href="#acc-earn">今天赚到钱</a>
+          <a class="toc-item" href="#acc-comm">通信保障</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-house">找稳定住所</a>
+          <a class="toc-item" href="#acc-job">找到工作</a>
+          <a class="toc-item" href="#acc-bank">开通账户</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-social">社保公积金</a>
+          <a class="toc-item" href="#acc-resident">居住证路径</a>
+          <a class="toc-item" href="#acc-skill">技能变现</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div>
+        <div class="toc-items"><a class="toc-item" href="#resources">所有热线 &amp; 地址</a></div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="content-area">
+    <div class="progress-hint">
+      <span>📖</span>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div>
+        <div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <!-- 第一章 -->
+    <section class="chapter" id="chapter1">
+      <div class="chapter-header">
+        <div class="chapter-icon red">🔴</div>
+        <div class="chapter-title">
+          <h2>第一章：活下去（前 7 天）</h2>
+          <p>广州是华南商贸中心，城中村密集、美食便宜，是超一线城市中对新来者最友好的城市之一。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-sleep">
+          <div class="accordion-header">
+            <span class="acc-icon">🛏️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今晚睡哪里</div>
+              <div class="acc-sub">广州城中村数量全国最多，低价住所选择极丰富</div>
+              <div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">低价选项</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🆓 选项一：广州市救助管理站（免费）</div>
+              <div class="alert info"><span class="alert-icon">ℹ️</span><div class="alert-content">无住所、无收入均可前往求助，无需预约，24小时接待。</div></div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">广州市救助管理站</div>
+                  <div class="ic-body">📍 越秀区东风东路1连1号<br>☎️ 020-81293799（24小时）<br>🚇 地铁1号线→东山口站，步行约10分钟</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">番禺区救助管理站</div>
+                  <div class="ic-body">📍 番禺区市桥街道清河路 ⚡请核实<br>☎️ 020-34926767 ⚡请核实<br>🕐 24小时接待</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>020-81293799</strong>，告知位置，可申请免费接送</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">携带身份证前往，说明来穗求职、无住所、无收入</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">审核通过提供住宿+三餐+基础医疗，可住7-10天</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">💸 选项二：青年旅社（60-120元/晚）</div>
+              <div class="alert warning"><span class="alert-icon">⚡</span><div class="alert-content">广交会期间（每年4月、10月）全市住宿价格暴涨3-5倍，尽量避开展会期入住。</div></div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>越秀区</strong></td><td>广州火车站/北京路</td><td>60-100元/晚</td><td>近火车站，交通极便利</td></tr>
+                  <tr><td><strong>荔湾区</strong></td><td>上下九/陈家祠</td><td>60-100元/晚</td><td>老城区文化氛围，价格低</td></tr>
+                  <tr><td><strong>天河区</strong></td><td>天河体育中心</td><td>80-120元/晚</td><td>商业中心，求职方便</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏘️ 选项三：城中村短租（广州最大优势，押一付一起住）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>广州城中村是全国新来者的宝藏：</strong>城中村数量极多，房租是超一线城市中最便宜的，生活配套完善，是广州独特优势。</div></div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>代表城中村</th><th>单间月租</th><th>特色产业</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>海珠区</strong></td><td>康乐村、鹭江村（康鹭片区）</td><td>500-800元</td><td>全国最大服装制造基地</td></tr>
+                  <tr><td><strong>白云区</strong></td><td>棠景、棠溪、石井、均禾</td><td>500-800元</td><td>批发/零售/物流集散</td></tr>
+                  <tr><td><strong>番禺区</strong></td><td>大学城周边、石碁镇</td><td>500-900元</td><td>制造/服务/年轻人聚集</td></tr>
+                  <tr><td><strong>黄埔区</strong></td><td>文冲村、夏港村、南岗</td><td>600-900元</td><td>工厂/制造/化工</td></tr>
+                  <tr><td><strong>天河区</strong></td><td>棠下村、石牌村</td><td>800-1200元</td><td>互联网/商贸/服务业</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content"><strong>康鹭片区首选：</strong>地铁8号线→凤凰新村站，步行进入康乐村或鹭江村，最便宜单间500-700元/月</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">打开58同城搜"广州日租/单间 城中村"，或直接进村找"出租"广告联系房东（省中介费）</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">广州城中村房东普遍接受"押一付一"，告知来穗求职即可</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-food">
+          <div class="accordion-header">
+            <span class="acc-icon">🍚</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天吃什么（5-15元吃饱）</div>
+              <div class="acc-sub">广州美食全国最实惠，肠粉/云吞/煲仔饭低价管饱</div>
+              <div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">5-15元</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🎓 选项一：高校食堂（5-12元/餐）</div>
+              <div class="alert warning"><span class="alert-icon">⚡</span><div class="alert-content">广州大学城是最佳选择，12所大学集中，部分校区对外开放度较高，进入前注意观察。</div></div>
+              <table class="data-table">
+                <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>广东工业大学</strong></td><td>番禺区大学城外环西路100号</td><td>大学城相对开放</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>广州大学</strong></td><td>番禺区大学城外环西路230号</td><td>大学城校区可进入</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>华南农业大学</strong></td><td>天河区五山路483号</td><td>主校区较宽松</td><td>5-12元/餐</td></tr>
+                  <tr><td><strong>广东技术师范大学</strong></td><td>白云区江高镇</td><td>较为开放</td><td>5-10元/餐</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🥢 广州特色低价美食（广州独有优势）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content">广州是全国美食最便宜的超一线城市！城中村里的肠粉店、云吞面、煲仔饭，5-15元可以吃得非常好。</div></div>
+              <table class="data-table">
+                <thead><tr><th>食物</th><th>价格</th><th>哪里找</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>肠粉</strong></td><td>4-8元/份</td><td>遍布全市，城中村内早市最便宜，康鹭片区多家5元店</td></tr>
+                  <tr><td><strong>云吞面</strong></td><td>8-15元/碗</td><td>荔湾/越秀老字号面馆，量大正宗</td></tr>
+                  <tr><td><strong>煲仔饭</strong></td><td>10-15元/份</td><td>城中村路边摊，量大管饱，是广州工人的最爱</td></tr>
+                  <tr><td><strong>沙河粉</strong></td><td>5-10元/份</td><td>天河区沙河镇一带，炒粉汤粉均有</td></tr>
+                  <tr><td><strong>广式早茶（平价）</strong></td><td>10-20元/人</td><td>白云区石井、棠溪附近茶楼，比市中心便宜一半</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏪 临期食品 &amp; 便利店折扣</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"好特卖"，广州天河/越秀/海珠均有门店，临期食品低至1-5元</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">广州7-11、OK便利店每天21:00后打折，临期饭团/便当5-8元</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">康鹭片区、棠景街菜市场下午5点后蔬菜极便宜，1-3元/斤</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-earn">
+          <div class="accordion-header">
+            <span class="acc-icon">💰</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天能赚到钱（零门槛，当天结算）</div>
+              <div class="acc-sub">零工平台、制衣日结（广州特色）、劳务市场</div>
+              <div class="acc-tags"><span class="acc-tag fast">当天到账</span><span class="acc-tag cheap">100-400元/天</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">📱 方案一：零工平台（当天结算）</div>
+              <table class="data-table">
+                <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>100-300元</td><td>微信搜"美团跑腿"</td></tr>
+                  <tr><td><strong>闪送骑手</strong></td><td>同城急送</td><td>130-400元</td><td>闪送App→注册骑手</td></tr>
+                  <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>100-200元</td><td>货拉拉App</td></tr>
+                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖配送</td><td>100-280元</td><td>美团App→骑手</td></tr>
+                  <tr><td><strong>58速聘日结</strong></td><td>各类日结工</td><td>100-200元</td><td>58同城App</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">👗 广州独有机会：制衣日结工（康鹭片区）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>全国独一无二！</strong>康乐村+鹭江村是全国最大服装制造基地，每天招聘大量零基础制衣工人，当天入职、当天结账。</div></div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">乘地铁8号线→凤凰新村站，步行进入康乐村或鹭江村</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">走进路边制衣厂（招聘信息贴满墙壁），说"我来应聘，可以当天上班"</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">剪线头/打包/整理等简单工序零基础可做，日结150-200元</div></div>
+                <div class="step"><span class="step-num">4</span><div class="step-content">会简单车工/缝纫机者200-350元/天，旺季（9-12月广交会季）需求最旺</div></div>
+                <div class="step"><span class="step-num">5</span><div class="step-content">很多厂子可以在厂内睡觉+吃饭，大幅节省生活成本</div></div>
+              </div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">制衣工资参考</div>
+                  <div class="ic-body">剪线头：150-180元/天<br>打包装箱：150-200元/天<br>简单缝纫：200-280元/天<br>熟练车工：280-400元/天</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">旺季规律</div>
+                  <div class="ic-body">每年旺季：9月-12月（广交会前后）<br>淡季：1-3月（春节前后）<br>旺季期间工资上浮20-30%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏗️ 方案三：劳务市场（当天现结）</div>
+              <table class="data-table">
+                <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>广园西路劳务市场</strong></td><td>白云区广园西路附近</td><td>早上 6:00-8:00</td><td>150-250元</td></tr>
+                  <tr><td><strong>棠景街劳务市场</strong></td><td>白云区棠景街道</td><td>早上 6:00-8:00</td><td>150-250元</td></tr>
+                  <tr><td><strong>黄埔文冲劳务</strong></td><td>黄埔区文冲村附近</td><td>早上 6:30-8:30</td><td>160-280元</td></tr>
+                  <tr><td><strong>番禺市桥劳务</strong></td><td>番禺区市桥街道</td><td>早上 6:30-8:30</td><td>150-250元</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">提前查好路线，早上6:00-7:30到达，工头招人高峰期</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">只接<strong>当天现结</strong>的活，谈好价格再动工</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">完工后立即要工资，遇到拖欠拨打<strong>12333</strong>举报</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🩸 方案四：无偿献血（补贴约100-400元）⚡</div>
+              <table class="data-table">
+                <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>广州血液中心</strong></td><td>越秀区东风中路11号 ⚡请核实</td><td>周一至周日 8:30-17:00</td></tr>
+                  <tr><td><strong>北京路献血屋</strong></td><td>越秀区北京路步行街附近</td><td>9:00-17:00</td></tr>
+                  <tr><td><strong>天河城献血点</strong></td><td>天河区天河路附近</td><td>不定期，关注公众号</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">微信搜"广州血液中心"小程序，查献血点+预约</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带身份证前往，全程约30分钟，领取营养补贴</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-comm">
+          <div class="accordion-header">
+            <span class="acc-icon">📱</span>
+            <div class="acc-title-block">
+              <div class="acc-title">基础通信保障</div>
+              <div class="acc-sub">最便宜电话卡、公共Wi-Fi、免费充电</div>
+              <div class="acc-tags"><span class="acc-tag cheap">9元/月起</span><span class="acc-tag free">免费Wi-Fi</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">📲 最便宜电话卡 + 免费Wi-Fi</div>
+              <table class="data-table">
+                <thead><tr><th>运营商/场所</th><th>套餐/说明</th><th>费用</th><th>获取方式</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>中国电信</strong></td><td>9元月套餐（流量+通话）</td><td>9元/月</td><td>电信营业厅，带身份证</td></tr>
+                  <tr><td><strong>中国移动</strong></td><td>花卡9元套餐</td><td>9元/月</td><td>移动营业厅</td></tr>
+                  <tr><td><strong>广州图书馆</strong></td><td>免费Wi-Fi+充电+座位</td><td>免费</td><td>天河区珠江东路4号，9:00-21:00</td></tr>
+                  <tr><td><strong>广州地铁站</strong></td><td>部分站点有免费Wi-Fi</td><td>免费</td><td>全线主要站</td></tr>
+                  <tr><td><strong>麦当劳/肯德基</strong></td><td>点餐后免费Wi-Fi+充电</td><td>13元起消费</td><td>全市均有</td></tr>
+                </tbody>
+              </table>
+              <div class="alert success"><span class="alert-icon">✅</span><div class="alert-content"><strong>推荐：广州图书馆</strong>（地铁3/5号线珠江新城站B出口），免费Wi-Fi+充电+座位，是广州最佳免费办公/求职地。周二至周日 9:00-21:00。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 第二章 -->
+    <section class="chapter" id="chapter2">
+      <div class="chapter-header">
+        <div class="chapter-icon blue">🔵</div>
+        <div class="chapter-title">
+          <h2>第二章：站稳脚（第 2-4 周）</h2>
+          <p>在广州找到稳定住所和工作，城中村是最好的缓冲地带，制衣/电商是最快起步方向。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-house">
+          <div class="accordion-header">
+            <span class="acc-icon">🏠</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到稳定住所</div>
+              <div class="acc-sub">城中村单间 / 求职驿站，月租500-1200元</div>
+              <div class="acc-tags"><span class="acc-tag free">驿站免费</span><span class="acc-tag cheap">城中村500元起</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🏢 选项一：广州求职驿站（免费住 7-14 天）⚡</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">各区人社局热线 ⚡</div>
+                  <div class="ic-body">越秀区：020-83666222<br>天河区：020-38492000<br>海珠区：020-84426929<br>白云区：020-86391781<br>番禺区：020-34961209</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">申请条件（参考）⚡</div>
+                  <div class="ic-body">年龄18-45周岁<br>来穗求职<br>在穗无固定住所<br>持有效身份证</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>穗好办App</strong>（广州政务服务），搜索"求职驿站"</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">或拨打所在区人社局电话，询问当前名额及申请方式</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">携带身份证前往指定地点办理</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏘️ 选项二：城中村合租（月租500-1200元）</div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>代表城中村</th><th>单间月租</th><th>适合方向</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>海珠区</strong></td><td>康乐村、鹭江村（康鹭片区）</td><td>500-800元</td><td>制衣/服装加工</td></tr>
+                  <tr><td><strong>白云区</strong></td><td>棠景、棠溪、石井</td><td>500-800元</td><td>批发/物流/零售</td></tr>
+                  <tr><td><strong>番禺区</strong></td><td>大学城周边、石碁</td><td>500-900元</td><td>制造/服务</td></tr>
+                  <tr><td><strong>黄埔区</strong></td><td>文冲村、夏港</td><td>600-900元</td><td>工厂/化工</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>58同城/安居客</strong>，搜"广州单间 城中村 押一付一"</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">直接进村找路边"出租"广告，联系房东直租（无中介费）</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">签合同前拍好现状照片，押金要收据</div></div>
+              </div>
+              <div class="link-btns">
+                <a href="https://gz.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客广州</a>
+                <a href="https://gz.58.com" target="_blank" class="link-btn outline">📋 58同城广州</a>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-job">
+          <div class="accordion-header">
+            <span class="acc-icon">💼</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到工作</div>
+              <div class="acc-sub">广州以贸易/制造/电商为主，招聘平台选择</div>
+              <div class="acc-tags"><span class="acc-tag fast">制衣当天入职</span><span class="acc-tag cheap">贸易/电商机会多</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🔧 蓝领方向（制衣/制造/物流/外卖）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>广州蓝领首选：</strong>康鹭片区制衣厂（海珠区）、番禺汽配城附近工厂、黄埔开发区制造业，均常年大量招聘，很多包住包吃。</div></div>
+              <table class="data-table">
+                <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>BOSS直聘</strong></td><td>直接联系老板，响应快</td><td>应用市场搜索</td></tr>
+                  <tr><td><strong>58同城</strong></td><td>蓝领/日结多</td><td>gz.58.com</td></tr>
+                  <tr><td><strong>康鹭片区制衣厂</strong></td><td>海珠区，大量招聘，无需技能</td><td>地铁8号线凤凰新村站，线下前往</td></tr>
+                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖骑手，灵活收入</td><td>美团App→骑手</td></tr>
+                  <tr><td><strong>广州人才网</strong></td><td>本地特色招聘平台</td><td>rc.gzhr.gov.cn</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">💻 白领方向（贸易/电商/互联网/服务）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>广州白领特色：</strong>外贸/跨境电商（阿里国际站/独立站）、直播电商（琶洲会展周边大量MCN机构）、批发贸易是广州独有的高增长机会。</div></div>
+              <table class="data-table">
+                <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>BOSS直聘</strong></td><td>贸易/电商/运营/客服</td><td>广州本地公司响应快</td></tr>
+                  <tr><td><strong>智联招聘</strong></td><td>行政/文员/销售</td><td>传统行业多</td></tr>
+                  <tr><td><strong>广州人才网</strong></td><td>本地岗位</td><td>广州本地最大招聘平台之一</td></tr>
+                  <tr><td><strong>前程无忧</strong></td><td>各类白领岗位</td><td>外资/合资企业多</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-bank">
+          <div class="accordion-header">
+            <span class="acc-icon">🏦</span>
+            <div class="acc-title-block">
+              <div class="acc-title">开通金融账户</div>
+              <div class="acc-sub">银行卡 + 实名认证</div>
+              <div class="acc-tags"><span class="acc-tag cheap">仅需身份证</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">🏧 开银行卡</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"邮政储蓄银行"或"农业银行"，找最近网点</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带<strong>身份证原件</strong>，说"开一张借记卡，用于收工资"</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">当天办理当天可用，办完绑定微信/支付宝</div></div>
+              </div>
+              <div class="alert info"><span class="alert-icon">💡</span><div class="alert-content">广州还可选择<strong>广州农村商业银行</strong>（广州农商行），本地银行对来穗务工人员开户更友好。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 第三章 -->
+    <section class="chapter" id="chapter3">
+      <div class="chapter-header">
+        <div class="chapter-icon green">🟢</div>
+        <div class="chapter-title">
+          <h2>第三章：往上走（第 2-3 个月）</h2>
+          <p>稳定后建立长期保障，利用广州外贸/制造/电商优势实现收入突破，目标均薪9500元。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-social">
+          <div class="accordion-header">
+            <span class="acc-icon">🛡️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">社保公积金</div>
+              <div class="acc-sub">广州社保是申办居住证和积分入户的基础</div>
+              <div class="acc-tags"><span class="acc-tag cheap">公司参保最省</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">✅ 由公司参保（最推荐）</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">入职时要求签<strong>劳动合同</strong>，明确社保缴纳，这是广州入户积分的重要依据</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">通过"<strong>穗好办App</strong>"→社保查询，可查缴费情况</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">广州社保缴满1年可申请积分入户，连续缴纳年限是最重要的加分项</div></div>
+              </div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">广州社保热线</div>
+                  <div class="ic-body">                  ☎️ 12333<br>穗好办App：查询社保<br>官网：hrssgz.gov.cn ⚡请核实
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-resident">
+          <div class="accordion-header">
+            <span class="acc-icon">📄</span>
+            <div class="acc-title-block">
+              <div class="acc-title">广州居住证 &amp; 积分入户</div>
+              <div class="acc-sub">居住证是在穗生活基础，积分够了可申请入户</div>
+              <div class="acc-tags"><span class="acc-tag cheap">免费办理</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">📋 申请广州居住证</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">申请条件</div>
+                  <div class="ic-body">非广州户籍<br>在穗居住1个月以上<br>有合法稳定住所<br>持有效身份证</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">所需材料</div>
+                  <div class="ic-body">身份证原件<br>租房合同<br>就业证明/劳动合同<br>近期照片</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>穗好办App</strong>，搜索"来穗人员居住证"在线申请</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">或前往<strong>居住地所在街道来穗人员服务管理中心</strong>现场办理</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">居住证有效期1年，每年续签，连续持有是积分入户的基础</div></div>
+              </div>
+              <div class="alert info"><span class="alert-icon">💡</span><div class="alert-content"><strong>广州积分入户：</strong>满足积分标准（学历+社保+居住年限+无违法记录）可申请广州户籍。社保缴满1年即可申请参加积分入户，加快落户进程。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-skill">
+          <div class="accordion-header">
+            <span class="acc-icon">📈</span>
+            <div class="acc-title-block">
+              <div class="acc-title">技能变现 → 达到广州平均工资</div>
+              <div class="acc-sub">广州2024年平均工资约9500元/月，外贸/直播/制衣是特色机会</div>
+              <div class="acc-tags"><span class="acc-tag fast">目标均薪9500</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">🚀 广州特有技能变现机会</div>
+              <table class="data-table">
+                <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>制衣/服装加工</strong></td><td>4,000-6,000元</td><td>7,000-10,000元</td><td>学会车缝技术，康鹭旺季收入翻倍</td></tr>
+                  <tr><td><strong>外卖/骑手</strong></td><td>4,000-7,000元</td><td>7,000-12,000元</td><td>熟悉天河/越秀路线，高峰期接单</td></tr>
+                  <tr><td><strong>跨境电商/外贸</strong></td><td>4,000-7,000元</td><td>8,000-15,000元</td><td>广州外贸公司多，英语+Amazon/速卖通经验很抢手</td></tr>
+                  <tr><td><strong>直播带货/主播助手</strong></td><td>4,000-6,000元</td><td>8,000-20,000元</td><td>琶洲MCN机构多，短视频/直播技能需求旺盛</td></tr>
+                  <tr><td><strong>销售（建材/外贸）</strong></td><td>底薪4,000+提成</td><td>8,000-20,000元</td><td>广州建材城/专业批发市场，提成极高</td></tr>
+                  <tr><td><strong>网约车司机</strong></td><td>5,000-8,000元</td><td>8,000-13,000元</td><td>需驾照+租车，广州出行需求大</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="content-block">
+              <div class="block-title">📚 广州免费技能提升资源</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">广州职业培训补贴</div>
+                  <div class="ic-body">穗好办App申请"职业技能提升补贴"，参加官方认定培训机构课程可报销学费。热线：12333</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">广州图书馆资源</div>
+                  <div class="ic-body">免费办借阅证，可借职业技能书籍<br>天河区珠江东路4号<br>周二至周日 9:00-21:00</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">广州大学城公开课</div>
+                  <div class="ic-body">番禺区大学城多所高校定期举办公开讲座，免费参加，适合学习外贸/商业知识</div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 资源速查 -->
+    <section class="chapter" id="resources">
+      <div class="chapter-header">
+        <div class="chapter-icon yellow">⚡</div>
+        <div class="chapter-title">
+          <h2>广州资源速查</h2>
+          <p>所有关键热线、地址、平台入口，一页汇总。</p>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:12px;border:1.5px solid #e0e0e0;overflow:hidden;">
+        <table class="data-table" style="margin:0;border:none;">
+          <thead><tr><th>类别</th><th>名称</th><th>联系方式 / 地址</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>广州市民热线</td><td data-copy="12345"><strong>12345</strong></td><td>政府服务、投诉举报</td></tr>
+            <tr><td>急救</td><td data-copy="120"><strong>120</strong></td><td>医疗急救</td></tr>
+            <tr><td>报警</td><td data-copy="110"><strong>110</strong></td><td>治安、人身安全</td></tr>
+            <tr><td rowspan="2"><strong>🏠 救助站</strong></td><td>广州市救助管理站</td><td>越秀区东风东路1连1号<br>☎ 020-81293799</td><td>24小时，免费住宿餐饮</td></tr>
+            <tr><td>番禺区救助站</td><td>番禺区市桥街道 ⚡请核实<br>☎ 020-34926767 ⚡请核实</td><td>24小时接待</td></tr>
+            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td data-copy="12333"><strong>12333</strong></td><td>讨薪、劳动争议</td></tr>
+            <tr><td>法律援助热线</td><td data-copy="12348"><strong>12348</strong></td><td>免费法律咨询</td></tr>
+            <tr><td><strong>🏛️ 政务服务</strong></td><td>穗好办App</td><td>应用市场搜"穗好办"</td><td>社保/居住证/求职驿站一站式</td></tr>
+            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>广州图书馆</td><td>天河区珠江东路4号<br>地铁3/5号线珠江新城站B出口</td><td>免费Wi-Fi+充电，周二至周日9:00-21:00</td></tr>
+            <tr><td>广州血液中心</td><td>越秀区东风中路11号 ⚡请核实<br>☎ 020-83881208 ⚡请核实</td><td>微信搜"广州血液中心"查点位</td></tr>
+            <tr><td rowspan="2"><strong>🏗️ 劳务市场</strong></td><td>广园西路劳务市场</td><td>白云区广园西路附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td>康鹭制衣区</td><td>海珠区，地铁8号线凤凰新村站</td><td>制衣日结，零基础可入，旺季9-12月</td></tr>
+            <tr><td rowspan="4"><strong>💼 求职平台</strong></td><td>BOSS直聘</td><td><a href="https://www.zhipin.com" target="_blank">zhipin.com</a></td><td>全类型，响应快</td></tr>
+            <tr><td>广州人才网</td><td><a href="http://rc.gzhr.gov.cn" target="_blank">rc.gzhr.gov.cn</a></td><td>广州本地官方招聘平台</td></tr>
+            <tr><td>58同城</td><td><a href="https://gz.58.com" target="_blank">gz.58.com</a></td><td>蓝领/日结工作多</td></tr>
+            <tr><td>安居客</td><td><a href="https://gz.anjuke.com" target="_blank">gz.anjuke.com</a></td><td>租房找房</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:16px;">
+        <div class="alert warning">
+          <span class="alert-icon">⚡</span>
+          <div class="alert-content">以上所有信息均为参考，政策/地址/电话可能随时变更。如遇信息失效，请直接搜索对应机构名称，或拨打 12345 咨询。</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>广州生存指南 · 城市生存手册 · 信息仅供参考，使用前请自行核实</p>
+  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a> · <a href="mailto:feedback@example.com">纠错/反馈</a></p>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>

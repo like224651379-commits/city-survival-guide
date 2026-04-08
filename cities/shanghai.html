@@ -3,23 +3,799 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>上海生存指南 — 城市生存手册</title>
+  <title>上海生存指南 — 从零开始，达到城市平均工资</title>
+  <meta name="description" content="上海城市生存详细指南：住所、食物、赚钱、找工作、社保，从0到月入均薪11500元。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body data-city="shanghai">
+
 <header class="city-header">
   <div class="inner">
     <a href="../index.html" class="back-btn">← 返回</a>
     <div class="city-header-title">上海<span>生存指南</span></div>
+    <nav class="chapter-nav">
+      <a href="#chapter1">🔴 活下去</a>
+      <a href="#chapter2">🔵 站稳脚</a>
+      <a href="#chapter3">🟢 往上走</a>
+      <a href="#resources">⚡ 速查</a>
+    </nav>
   </div>
 </header>
-<div class="coming-soon">
-  <div class="emoji">🚧</div>
-  <h2>上海版本建设中</h2>
-  <p>平均工资参考：<strong>约11,500元/月</strong></p>
-  <p>上海版本内容正在整理中，预计近期上线。<br>目前可先参考<a href="shenzhen.html">深圳版</a>的框架，很多方法全国通用。</p>
-  <a href="../index.html" class="link-btn primary" style="display:inline-flex;margin-top:8px;">← 返回城市选择</a>
+
+<div class="emergency-bar">
+  <div class="inner">
+    <span class="emergency-label">⚡ 紧急求助</span>
+    <div class="emergency-item"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>救助站</span><span class="num">021-62408899</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
+  </div>
 </div>
+
+<div class="city-layout">
+  <aside class="sidebar">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="🔍 搜索关键词…">
+    </div>
+    <div class="sidebar-toc">
+      <h4>目录</h4>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-sleep">今晚睡哪里</a>
+          <a class="toc-item" href="#acc-food">今天吃什么</a>
+          <a class="toc-item" href="#acc-earn">今天赚到钱</a>
+          <a class="toc-item" href="#acc-comm">通信保障</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-house">找稳定住所</a>
+          <a class="toc-item" href="#acc-job">找到工作</a>
+          <a class="toc-item" href="#acc-bank">开通账户</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-social">社保公积金</a>
+          <a class="toc-item" href="#acc-resident">居住证路径</a>
+          <a class="toc-item" href="#acc-skill">技能变现</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#resources">所有热线 &amp; 地址</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="content-area">
+
+    <div class="progress-hint">
+      <span>📖</span>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div>
+        <div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <section class="chapter" id="chapter1">
+      <div class="chapter-header">
+        <div class="chapter-icon red">🔴</div>
+        <div class="chapter-title">
+          <h2>第一章：活下去（前 7 天）</h2>
+          <p>上海物价贵但机会极多，是中国最具活力的就业市场。先把今晚、今天和第一笔钱解决。</p>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-sleep">
+          <div class="accordion-header">
+            <span class="acc-icon">🛏️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今晚睡哪里</div>
+              <div class="acc-sub">按费用从低到高，先看免费选项</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">免费选项</span>
+                <span class="acc-tag cheap">低价选项</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🆓 选项一：上海市救助管理站（免费）</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">上海市救助管理站为无住所、无钱财的人员提供临时救助，无需预约，24小时接待。</div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">上海市救助管理站</div>
+                    <div class="ic-body">
+                      📍 普陀区管弄路235号<br>
+                      ☎️ 021-62408899（24小时）<br>
+                      🚇 地铁11号线→隆德路站，步行约15分钟
+                    </div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">浦东新区救助站</div>
+                    <div class="ic-body">
+                      📍 浦东新区迎春路325号<br>
+                      ☎️ 021-58601350<br>
+                      🕐 24小时接待
+                    </div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>021-62408899</strong>，告知当前位置，可申请派车接送（免费）</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">携带身份证前往，说明：来沪务工/求职，目前无住所、无收入</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">审核后提供住宿+三餐+基础医疗，一般可住7-10天</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">在站期间积极联系劳务市场，计划下一步落脚</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💸 选项二：青年旅社（70-150元/晚）</div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>杨浦区</strong></td><td>复旦大学/同济周边</td><td>70-120元/晚</td><td>学区氛围，安静便宜</td></tr>
+                    <tr><td><strong>虹口区</strong></td><td>上海火车站/北外滩</td><td>80-130元/晚</td><td>近火车站，交通极便利</td></tr>
+                    <tr><td><strong>黄浦区</strong></td><td>南京路/人民广场</td><td>90-150元/晚</td><td>市中心，地铁四通八达</td></tr>
+                    <tr><td><strong>浦东新区</strong></td><td>张江/陆家嘴周边</td><td>80-140元/晚</td><td>商务区，求职方便</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>美团/携程/去哪儿</strong>，搜"上海青年旅社床位"，按价格升序</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">直接电话砍价：表示住一周以上，通常有7-8折优惠</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏘️ 选项三：城乡结合部/老社区短租（押一付一，约300-700元起住）</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">上海虽无大面积"城中村"，但闵行、嘉定、松江、宝山等郊区有大量廉价出租房，是新来沪人员的首选落脚地。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>代表地点</th><th>单间月租</th><th>适合方向</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>闵行区</strong></td><td>七宝、莘庄、浦江镇</td><td>1000-1500元</td><td>制造/商业/互联网</td></tr>
+                    <tr><td><strong>宝山区</strong></td><td>大场、顾村、罗店</td><td>800-1200元</td><td>工厂/物流/仓储</td></tr>
+                    <tr><td><strong>松江区</strong></td><td>泗泾、九亭、车墩</td><td>800-1200元</td><td>工厂/制造业</td></tr>
+                    <tr><td><strong>嘉定区</strong></td><td>安亭、南翔、马陆</td><td>700-1100元</td><td>汽车产业/制造</td></tr>
+                    <tr><td><strong>青浦区</strong></td><td>朱家角、赵巷、白鹤</td><td>700-1100元</td><td>物流/制造/仓储</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>58同城/安居客</strong>，搜"上海单间 押一付一"，筛选郊区低价房源</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或到目标区域转悠，找路边"出租"广告直联房东，省中介费</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">签合同前拍好现状照片，押金收据保留好</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-food">
+          <div class="accordion-header">
+            <span class="acc-icon">🍚</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天吃什么（5-20元吃饱）</div>
+              <div class="acc-sub">高校食堂、临期食品、低价餐饮</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">免费选项</span>
+                <span class="acc-tag cheap">5-20元</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🎓 选项一：高校食堂（6-15元/餐）</div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">上海高校管理较严，部分已采用人脸识别或刷卡。以下为相对开放的学校，请实时核查。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>上海大学</strong></td><td>宝山区上大路99号</td><td>相对开放，混入可能</td><td>6-12元/餐</td></tr>
+                    <tr><td><strong>上海师范大学</strong></td><td>徐汇区桂林路100号</td><td>非高峰期较宽松</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>华东政法大学</strong></td><td>松江区龙源路555号</td><td>郊区校区相对开放</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>上海工程技术大学</strong></td><td>松江区龙腾路333号</td><td>开放度较高</td><td>6-12元/餐</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏪 选项二：临期食品店 &amp; 便利店折扣</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content"><strong>好特卖（HotMaxx）</strong>在上海有大量门店，浦东/徐汇/杨浦等区均有，高德搜索即可</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content"><strong>罗森</strong>是上海密度最高的便利店，每天<strong>21:00后</strong>对当日食品打折，折扣力度大</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">全家Family Mart每天下午打折区有大量折扣便当（原价15-20元，折扣后6-10元）</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">曹杨路、大场、顾村等工人集聚区菜市场，下午5点后蔬菜极便宜</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🍜 选项三：低价餐饮（5-15元吃饱）</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>价格</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td>宝山、闵行工人区小饭馆</td><td>10-15元</td><td>盒饭量大，专为工人服务</td></tr>
+                    <tr><td>七宝老街小吃</td><td>5-15元</td><td>本地特色小吃，价格实惠</td></tr>
+                    <tr><td>麦当劳App领券套餐</td><td>约13元</td><td>App每天有券，汉堡+饮料</td></tr>
+                    <tr><td>沪上晨间生煎/小笼包</td><td>5-10元</td><td>上海特色，早市摊位价格低</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-earn">
+          <div class="accordion-header">
+            <span class="acc-icon">💰</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天能赚到钱（零门槛，当天结算）</div>
+              <div class="acc-sub">零工平台、劳务市场、献血，当天可到账</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">当天到账</span>
+                <span class="acc-tag cheap">100-500元/天</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📱 方案一：零工平台（当天结算）</div>
+                <table class="data-table">
+                  <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>120-350元</td><td>微信搜"美团跑腿"→成为跑腿员</td></tr>
+                    <tr><td><strong>闪送骑手</strong></td><td>同城急送</td><td>150-450元</td><td>闪送App→注册骑手</td></tr>
+                    <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>100-250元</td><td>货拉拉App→成为帮手</td></tr>
+                    <tr><td><strong>美团外卖众包</strong></td><td>外卖配送</td><td>120-300元</td><td>美团App→成为骑手</td></tr>
+                    <tr><td><strong>饿了么骑手</strong></td><td>外卖配送</td><td>120-300元</td><td>饿了么App→众包骑手</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content"><strong>闪送首推：</strong>下载闪送App → 注册骑手 → 上传身份证+绑定银行卡 → 审核后接单</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">上海陆家嘴（金融区）对商务急送需求极大，高峰期客单价高</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">无电动车先做步行接单，有收入后租车（日租约40-60元），日收入可升至300元+</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>上海特色机会：</strong>外滩/陆家嘴/南京路等景区促销、发传单类临时工需求多，在58搜"促销员日结"。进博会/各大展会期间大量临时工招聘。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏗️ 方案二：劳务市场（当天现结）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>上海主要劳务集散地：</strong>曹杨路劳务市场（普陀区）、真如劳务市场（普陀区）是上海最重要的蓝领日结工来源地。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>曹杨路劳务市场</strong></td><td>普陀区曹杨路附近</td><td>早上 6:00-8:00</td><td>180-300元</td></tr>
+                    <tr><td><strong>真如劳务市场</strong></td><td>普陀区真如镇</td><td>早上 6:00-8:00</td><td>180-280元</td></tr>
+                    <tr><td><strong>宝山区大场劳务</strong></td><td>宝山区大场镇</td><td>早上 5:30-7:30</td><td>160-280元</td></tr>
+                    <tr><td><strong>闵行七宝劳务</strong></td><td>闵行区七宝镇附近</td><td>早上 6:00-8:00</td><td>160-280元</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">提前查好路线，早上<strong>6:00-7:00</strong>到达，工头招人高峰期</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">主动询问工作内容、时长、当天结吗？只接<strong>当天现结</strong>的活</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">当天完工后立即要工资，不要空手离开</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🩸 方案三：无偿献血（营养补贴）⚡</div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">献血补贴标准以上海血液中心最新公告为准。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>上海血液中心</strong></td><td>徐汇区瑞金二路187号</td><td>周一至周日 8:30-17:00</td></tr>
+                    <tr><td><strong>人民广场献血屋</strong></td><td>黄浦区人民广场附近</td><td>9:00-17:00</td></tr>
+                    <tr><td><strong>南京东路献血点</strong></td><td>黄浦区南京东路</td><td>9:00-17:00</td></tr>
+                    <tr><td><strong>徐家汇献血屋</strong></td><td>徐汇区徐家汇</td><td>9:00-17:00</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">微信搜"<strong>上海血液中心</strong>"小程序，查所有献血点并预约</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">带身份证前往，健康问询+体检约15分钟，献血全程约30分钟</div></div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">上海献血补贴 ⚡</div>
+                    <div class="ic-body">全血200ml：约100-200元营养补贴<br>单采血小板：约300-500元<br>另有饮料、纪念品等</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-comm">
+          <div class="accordion-header">
+            <span class="acc-icon">📱</span>
+            <div class="acc-title-block">
+              <div class="acc-title">基础通信保障</div>
+              <div class="acc-sub">最便宜电话卡、公共Wi-Fi、免费充电</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">9元/月起</span>
+                <span class="acc-tag free">免费Wi-Fi</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📲 最便宜电话卡</div>
+                <table class="data-table">
+                  <thead><tr><th>运营商</th><th>套餐</th><th>月费</th><th>购买方式</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>中国电信</strong></td><td>9元套餐（含流量+通话）</td><td>9元</td><td>电信营业厅现场办理</td></tr>
+                    <tr><td><strong>中国移动</strong></td><td>花卡9元套餐</td><td>9元</td><td>移动营业厅/微信搜"中国移动"</td></tr>
+                    <tr><td><strong>中国联通</strong></td><td>沃派卡9元</td><td>9元</td><td>联通营业厅</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📶 上海免费公共 Wi-Fi</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>Wi-Fi 说明</th><th>地址</th></tr></thead>
+                  <tbody>
+                    <tr><td>上海地铁站内</td><td>i-Shanghai免费Wi-Fi覆盖部分站点</td><td>全线主要站点</td></tr>
+                    <tr><td>上海图书馆</td><td>馆内免费高速Wi-Fi</td><td>徐汇区淮海中路1555号</td></tr>
+                    <tr><td>上海市民中心</td><td>政务服务大厅免费Wi-Fi</td><td>浦东新区世纪大道2001号</td></tr>
+                    <tr><td>麦当劳/肯德基</td><td>点餐后免费使用</td><td>全市均有</td></tr>
+                    <tr><td>星巴克</td><td>点餐后使用，速度快</td><td>全市均有</td></tr>
+                  </tbody>
+                </table>
+                <div class="alert success">
+                  <span class="alert-icon">✅</span>
+                  <div class="alert-content"><strong>推荐首选：上海图书馆</strong>（地铁1号线/10号线陕西南路站，步行约5分钟），免费Wi-Fi+免费充电+免费座位，周一至周日 9:00-20:30。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🔋 免费充电地点</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>上海图书馆（新馆）</strong></td><td>徐汇区，阅览区充电桩充足</td></tr>
+                    <tr><td><strong>各区图书馆</strong></td><td>阅览区均有插座，推荐优先</td></tr>
+                    <tr><td><strong>政务服务中心</strong></td><td>等候区有充电区域</td></tr>
+                    <tr><td><strong>麦当劳/肯德基</strong></td><td>部分座位旁有USB插座</td></tr>
+                    <tr><td><strong>地铁站共享充电宝</strong></td><td>小电/来电，约1-2元/小时</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="chapter2">
+      <div class="chapter-header">
+        <div class="chapter-icon blue">🔵</div>
+        <div class="chapter-title">
+          <h2>第二章：站稳脚（第 2-4 周）</h2>
+          <p>找到稳定住所、找到正式工作、开通金融账户，在上海扎下根。</p>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-house">
+          <div class="accordion-header">
+            <span class="acc-icon">🏠</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到稳定住所</div>
+              <div class="acc-sub">求职驿站 / 郊区合租，月租1000-2000元</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">驿站免费</span>
+                <span class="acc-tag cheap">合租1000元起</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🏢 选项一：上海求职驿站（免费住 7-14 天）⚡</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">上海各区人社局为来沪求职者提供临时免费住宿，名额有限，以最新官方公告为准。</div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">各区人社局热线 ⚡</div>
+                    <div class="ic-body">
+                      浦东新区：021-50808895<br>
+                      闵行区：021-34138080<br>
+                      宝山区：021-56695678<br>
+                      杨浦区：021-55027777<br>
+                      普陀区：021-62567890 ⚡请核实
+                    </div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>随申办市民云App</strong>，搜索"求职驿站"或"人才服务"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或拨打所在区人社局电话，询问当前名额和申请方式</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">携带身份证前往办理，审核通过后安排入住</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="http://hrss.sh.gov.cn" target="_blank" class="link-btn outline">🌐 上海人社局官网</a>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏘️ 选项二：郊区合租（月租1000-1800元）</div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>代表地点</th><th>合租价格</th><th>通勤参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>宝山区</strong></td><td>大场、顾村、罗店</td><td>800-1200元</td><td>地铁1号线/7号线，40分钟到市区</td></tr>
+                    <tr><td><strong>闵行区</strong></td><td>莘庄、七宝、浦江</td><td>1000-1500元</td><td>地铁1号线/5号线</td></tr>
+                    <tr><td><strong>松江区</strong></td><td>九亭、泗泾、车墩</td><td>800-1200元</td><td>地铁9号线，50分钟到市区</td></tr>
+                    <tr><td><strong>嘉定区</strong></td><td>安亭、南翔、马陆</td><td>700-1100元</td><td>地铁11号线，50-60分钟</td></tr>
+                    <tr><td><strong>青浦区</strong></td><td>朱家角、赵巷</td><td>700-1100元</td><td>地铁17号线</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>安居客/链家</strong>，搜"上海合租 单间"，筛选外环以外，价格设1500元以下</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">微信搜"上海找房群"、"宝山找房"等关键词加群，群内房源多且更新快</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">上海有"群租房"管控，找正规合租，每间卧室面积≥5㎡，避免违规群租</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="https://sh.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客上海</a>
+                  <a href="https://sh.58.com" target="_blank" class="link-btn outline">📋 58同城上海</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-job">
+          <div class="accordion-header">
+            <span class="acc-icon">💼</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到工作</div>
+              <div class="acc-sub">上海就业市场分析 + 主要招聘渠道</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">蓝领当天入职</span>
+                <span class="acc-tag cheap">金融/互联网机会多</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🔧 蓝领方向（制造/物流/服务/餐饮）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>上海制造业集中区：</strong>嘉定安亭（汽车）、奉贤（化工/制造）、金山（石化）、松江（电子/制造）大量招聘，很多工厂提供宿舍。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>BOSS直聘</strong></td><td>直接联系老板，响应快</td><td>应用市场搜"BOSS直聘"</td></tr>
+                    <tr><td><strong>58同城</strong></td><td>蓝领/日结职位多</td><td>sh.58.com</td></tr>
+                    <tr><td><strong>曹杨路劳务市场</strong></td><td>普陀区，日结工汇聚</td><td>线下前往</td></tr>
+                    <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖，灵活收入高</td><td>美团App→骑手</td></tr>
+                    <tr><td><strong>顺丰速运招聘</strong></td><td>快递分拣/投递，稳定社保</td><td>应聘需在官网报名</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💻 白领方向（金融/互联网/贸易）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>上海白领首选区域：</strong>陆家嘴（金融/银行）、张江（科技/互联网）、漕河泾（IT/研发）、徐汇（各类商务）。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>BOSS直聘</strong></td><td>互联网/金融/销售</td><td>上海互联网公司首选</td></tr>
+                    <tr><td><strong>智联招聘</strong></td><td>行政/客服/文员</td><td>传统行业岗位多</td></tr>
+                    <tr><td><strong>前程无忧</strong></td><td>各类白领岗位</td><td>外资企业多</td></tr>
+                    <tr><td><strong>猎聘</strong></td><td>金融/咨询（有经验者）</td><td>薪资透明度高</td></tr>
+                    <tr><td><strong>领英(LinkedIn)</strong></td><td>外资/跨国企业</td><td>上海外资企业特别适用</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">优先投<strong>客服/销售/行政</strong>，这三类在上海需求量极大，门槛低</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">上海外资企业多，英语有一定基础者优先投外资公司，薪资比同类国内企业高20-50%</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">简历突出稳定性和到岗速度："我明天即可入职"，HR录取意愿更强</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-bank">
+          <div class="accordion-header">
+            <span class="acc-icon">🏦</span>
+            <div class="acc-title-block">
+              <div class="acc-title">开通金融账户</div>
+              <div class="acc-sub">银行卡 + 实名认证，收工资的基础</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">仅需身份证</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🏧 开银行卡（推荐：邮政储蓄/农业银行）</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"邮政储蓄银行"，找最近网点</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">带<strong>身份证原件</strong>，到柜台说"开一张借记卡，用于收工资"</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">当天办理当天可用，办理完绑定微信/支付宝</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content">上海交通银行（总部在沪）和浦发银行也是不错的选择，部分网点对新来沪人员开卡友好。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💚 微信/支付宝实名认证</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content"><strong>微信：</strong>我 → 服务 → 钱包 → 实名认证 → 上传身份证+人脸识别</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content"><strong>支付宝：</strong>我的 → 实名认证 → 身份证认证 → 人脸识别完成</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="chapter3">
+      <div class="chapter-header">
+        <div class="chapter-icon green">🟢</div>
+        <div class="chapter-title">
+          <h2>第三章：往上走（第 2-3 个月）</h2>
+          <p>稳定后开始建立长期保障，积累上海积分，目标：月薪 11,500 元。</p>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-social">
+          <div class="accordion-header">
+            <span class="acc-icon">🛡️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">社保公积金</div>
+              <div class="acc-sub">上海社保是积分落户和申办居住证的核心条件</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">公司参保最省</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">✅ 方式一：由公司参保（最推荐）</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">入职要求签<strong>劳动合同</strong>，明确社保缴纳</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">公司次月为你办理上海社保，通过"<strong>随申办</strong>"App可查缴费状态</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">上海社保连续缴满7年（且符合其他条件）可申请积分落户，从第一天起就要积累</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">上海社保落户政策变化较大，关注市人社局官网最新动态。连续性比金额更重要，不要轻易断缴。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📞 上海社保查询热线</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">上海社保热线</div>
+                    <div class="ic-body">
+                      ☎️ 12333<br>
+                      随申办App：随申码查询社保<br>
+                      官网：rsj.sh.gov.cn
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-resident">
+          <div class="accordion-header">
+            <span class="acc-icon">📄</span>
+            <div class="acc-title-block">
+              <div class="acc-title">上海居住证 &amp; 积分申请</div>
+              <div class="acc-sub">居住证是在沪生活的基础，积分达标可申请落户</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">免费办理</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📋 申请上海居住证</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">申请条件</div>
+                    <div class="ic-body">非上海户籍<br>在沪合法居住<br>有稳定就业（劳动合同）<br>持有效身份证</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">所需材料</div>
+                    <div class="ic-body">身份证原件<br>租房合同<br>劳动合同/就业证明<br>近期照片</div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">通过<strong>随申办市民云App</strong>在线申请，全程网办</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或前往<strong>居住地街道社区事务受理服务中心</strong>现场办理</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">持居住证连续满7年+社保满7年+依法纳税，积分可达120分，申请落户</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>上海积分落户：</strong>学历加分明显，本科+120分就够了，专科需要累积年限。从第一天起保持社保连续、居住证有效，是最重要的事。</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-skill">
+          <div class="accordion-header">
+            <span class="acc-icon">📈</span>
+            <div class="acc-title-block">
+              <div class="acc-title">技能变现 → 达到上海平均工资</div>
+              <div class="acc-sub">上海2024年平均工资约11,500元/月，金融/互联网/贸易是核心机会</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">目标均薪11500</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🚀 上海特有技能变现机会</div>
+                <table class="data-table">
+                  <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>外卖/闪送骑手</strong></td><td>5,000-8,000元</td><td>9,000-15,000元</td><td>熟悉陆家嘴/徐汇路线，高峰期接单</td></tr>
+                    <tr><td><strong>网约车司机</strong></td><td>6,000-9,000元</td><td>10,000-15,000元</td><td>需驾照+租车，选滴滴/T3/高德</td></tr>
+                    <tr><td><strong>金融销售</strong></td><td>底薪5,000+提成</td><td>15,000-50,000元</td><td>陆家嘴保险/理财产品，高提成</td></tr>
+                    <tr><td><strong>跨境电商/外贸</strong></td><td>5,000-7,000元</td><td>8,000-15,000元</td><td>上海外贸公司多，英语优先，有亚马逊/速卖通经验更佳</td></tr>
+                    <tr><td><strong>汽车维修/钣金</strong></td><td>6,000-9,000元</td><td>10,000-15,000元</td><td>嘉定汽车产业园附近需求极大，考证升职</td></tr>
+                    <tr><td><strong>IT技术</strong></td><td>—</td><td>12,000-20,000元</td><td>张江/漕河泾需求极大，前端/Java/数据分析</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📚 上海免费技能提升资源</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">上海职业培训补贴</div>
+                    <div class="ic-body">随申办App申请"职业技能补贴"，参加官方认定培训可报销学费。热线：12333</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">上海图书馆资源</div>
+                    <div class="ic-body">免费办借阅证，可借职业技能书籍<br>徐汇区淮海中路1555号<br>周一至周日 9:00-20:30</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">张江科技园创业资源</div>
+                    <div class="ic-body">定期举办免费IT/创业培训，关注"张江高科"微信公众号，适合有技术意愿者</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="resources">
+      <div class="chapter-header">
+        <div class="chapter-icon yellow">⚡</div>
+        <div class="chapter-title">
+          <h2>上海资源速查</h2>
+          <p>所有关键热线、地址、平台入口，一页汇总。</p>
+        </div>
+      </div>
+
+      <div style="background:#fff;border-radius:12px;border:1.5px solid #e0e0e0;overflow:hidden;">
+        <table class="data-table" style="margin:0;border:none;">
+          <thead><tr><th>类别</th><th>名称</th><th>联系方式 / 地址</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>上海市民热线</td><td data-copy="12345"><strong>12345</strong></td><td>政府服务、投诉举报</td></tr>
+            <tr><td>急救</td><td data-copy="120"><strong>120</strong></td><td>医疗急救</td></tr>
+            <tr><td>报警</td><td data-copy="110"><strong>110</strong></td><td>治安、人身安全</td></tr>
+            <tr><td rowspan="2"><strong>🏠 救助站</strong></td><td>上海市救助管理站</td><td>普陀区管弄路235号<br>☎ 021-62408899</td><td>24小时，免费住宿餐饮</td></tr>
+            <tr><td>浦东新区救助站</td><td>浦东新区迎春路325号<br>☎ 021-58601350</td><td>24小时接待</td></tr>
+            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td data-copy="12333"><strong>12333</strong></td><td>讨薪、劳动争议</td></tr>
+            <tr><td>法律援助热线</td><td data-copy="12348"><strong>12348</strong></td><td>免费法律咨询</td></tr>
+            <tr><td><strong>🏛️ 政务服务</strong></td><td>随申办市民云App</td><td>应用市场搜"随申办"</td><td>社保/居住证/求职驿站一站式</td></tr>
+            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>上海图书馆</td><td>徐汇区淮海中路1555号<br>地铁1/10号线陕西南路站</td><td>免费Wi-Fi+充电，9:00-20:30</td></tr>
+            <tr><td>上海血液中心</td><td>徐汇区瑞金二路187号<br>☎ 021-64370441 ⚡请核实</td><td>微信搜"上海血液中心"查献血点</td></tr>
+            <tr><td rowspan="2"><strong>🏗️ 劳务市场</strong></td><td>曹杨路劳务市场</td><td>普陀区曹杨路附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td>宝山大场劳务市场</td><td>宝山区大场镇</td><td>日结工，早5:30-7:30到场</td></tr>
+            <tr><td rowspan="4"><strong>💼 求职平台</strong></td><td>BOSS直聘</td><td><a href="https://www.zhipin.com" target="_blank">zhipin.com</a></td><td>全类型，响应快</td></tr>
+            <tr><td>智联招聘</td><td><a href="https://www.zhaopin.com" target="_blank">zhaopin.com</a></td><td>传统企业岗位多</td></tr>
+            <tr><td>领英(LinkedIn)</td><td><a href="https://www.linkedin.cn" target="_blank">linkedin.cn</a></td><td>外资/跨国企业专属</td></tr>
+            <tr><td>安居客</td><td><a href="https://sh.anjuke.com" target="_blank">sh.anjuke.com</a></td><td>租房找房</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="margin-top:16px;">
+        <div class="alert warning">
+          <span class="alert-icon">⚡</span>
+          <div class="alert-content">以上所有信息均为参考，政策/地址/电话可能随时变更。如遇信息失效，请直接搜索对应机构名称获取最新信息，或拨打 12345 咨询。</div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>上海生存指南 · 城市生存手册 · 信息仅供参考，使用前请自行核实</p>
+  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a> · <a href="mailto:feedback@example.com">纠错/反馈</a></p>
+</footer>
+
 <script src="../assets/app.js"></script>
 </body>
 </html>

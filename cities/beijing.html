@@ -3,23 +3,867 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>北京生存指南 — 城市生存手册</title>
+  <title>北京生存指南 — 从零开始，达到城市平均工资</title>
+  <meta name="description" content="北京城市生存详细指南：住所、食物、赚钱、找工作、社保，从0到月入均薪12000元。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body data-city="beijing">
+
 <header class="city-header">
   <div class="inner">
     <a href="../index.html" class="back-btn">← 返回</a>
     <div class="city-header-title">北京<span>生存指南</span></div>
+    <nav class="chapter-nav">
+      <a href="#chapter1">🔴 活下去</a>
+      <a href="#chapter2">🔵 站稳脚</a>
+      <a href="#chapter3">🟢 往上走</a>
+      <a href="#resources">⚡ 速查</a>
+    </nav>
   </div>
 </header>
-<div class="coming-soon">
-  <div class="emoji">🚧</div>
-  <h2>北京版本建设中</h2>
-  <p>平均工资参考：<strong>约12,000元/月</strong></p>
-  <p>北京版本内容正在整理中，预计近期上线。<br>目前可先参考<a href="shenzhen.html">深圳版</a>的框架，很多方法全国通用。</p>
-  <a href="../index.html" class="link-btn primary" style="display:inline-flex;margin-top:8px;">← 返回城市选择</a>
+
+<div class="emergency-bar">
+  <div class="inner">
+    <span class="emergency-label">⚡ 紧急求助</span>
+    <div class="emergency-item"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>救助站</span><span class="num">010-83112233</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
+  </div>
 </div>
+
+<div class="city-layout">
+  <aside class="sidebar">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="🔍 搜索关键词…">
+    </div>
+    <div class="sidebar-toc">
+      <h4>目录</h4>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-sleep">今晚睡哪里</a>
+          <a class="toc-item" href="#acc-food">今天吃什么</a>
+          <a class="toc-item" href="#acc-earn">今天赚到钱</a>
+          <a class="toc-item" href="#acc-comm">通信保障</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-house">找稳定住所</a>
+          <a class="toc-item" href="#acc-job">找到工作</a>
+          <a class="toc-item" href="#acc-bank">开通账户</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-social">社保公积金</a>
+          <a class="toc-item" href="#acc-resident">居住证路径</a>
+          <a class="toc-item" href="#acc-skill">技能变现</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#resources">所有热线 &amp; 地址</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="content-area">
+
+    <div class="progress-hint">
+      <span>📖</span>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div>
+        <div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <!-- 第一章 -->
+    <section class="chapter" id="chapter1">
+      <div class="chapter-header">
+        <div class="chapter-icon red">🔴</div>
+        <div class="chapter-title">
+          <h2>第一章：活下去（前 7 天）</h2>
+          <p>北京消费高但资源最丰富。先把今晚住所、今天饭钱、第一笔收入搞定，其他之后再说。</p>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-sleep">
+          <div class="accordion-header">
+            <span class="acc-icon">🛏️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今晚睡哪里</div>
+              <div class="acc-sub">按费用从低到高排列，先看免费选项</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">免费选项</span>
+                <span class="acc-tag cheap">低价选项</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🆓 选项一：北京市救助管理站（免费）</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">只要你在北京无处可去、身无分文，均可前往，无需预约。北京街头也有巡查队在各大地铁站附近，可主动向其求助。</div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">北京市救助管理站（总站）</div>
+                    <div class="ic-body">
+                      📍 西城区光明路14号<br>
+                      ☎️ 010-83112233（24小时）<br>
+                      🚇 地铁7号线→广安门内站，步行约10分钟
+                    </div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">朝阳区救助管理站</div>
+                    <div class="ic-body">
+                      📍 朝阳区惠新东街8号<br>
+                      ☎️ 010-64951716<br>
+                      🕐 24小时接待
+                    </div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>010-83112233</strong>，告知所在位置，可申请免费派车接送</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">携带身份证前往西城区光明路14号，说明：来京务工、目前无住所、无收入</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">审核后提供住宿+三餐+基础医疗，一般可住7-10天</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">住站期间积极联系劳务市场，计划下一步出路</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💸 选项二：青年旅社（60-150元/晚）</div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>丰台区</strong></td><td>北京西站附近</td><td>60-100元/晚</td><td>价格最低，火车站旁</td></tr>
+                    <tr><td><strong>东城区</strong></td><td>北京站/崇文门</td><td>70-120元/晚</td><td>近火车站，交通极便利</td></tr>
+                    <tr><td><strong>西城区</strong></td><td>南锣鼓巷/鼓楼</td><td>80-150元/晚</td><td>老城区，文化氛围</td></tr>
+                    <tr><td><strong>朝阳区</strong></td><td>三里屯/工体</td><td>90-150元/晚</td><td>繁华区，找工作方便</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>美团/携程/去哪儿</strong>，搜"北京青年旅社床位"，按价格从低到高排</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">直接电话联系青旅：表示住一周，通常可获7-8折长住优惠</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏘️ 选项三：五环外城乡结合部短租（300-600元押一付一起住）</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">北京无传统城中村，但五环外有大量廉租房，是落脚首选。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>代表地点</th><th>单间月租</th><th>适合方向</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>大兴区</strong></td><td>黄村、西红门、庑殿</td><td>800-1200元</td><td>物流/仓储/快递</td></tr>
+                    <tr><td><strong>通州区</strong></td><td>马驹桥、梨园、台湖</td><td>900-1400元</td><td>建筑/零工/制造</td></tr>
+                    <tr><td><strong>顺义区</strong></td><td>牛栏山、南法信</td><td>700-1100元</td><td>工厂/制造业</td></tr>
+                    <tr><td><strong>昌平区</strong></td><td>沙河、天通苑周边</td><td>800-1200元</td><td>互联网/服务业</td></tr>
+                    <tr><td><strong>房山区</strong></td><td>良乡、阎村、窦店</td><td>700-1000元</td><td>建材/工厂/物流</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>58同城/安居客</strong>，搜"北京单间 押一付一"，筛选五环外</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">直接到目标区域找路边"出租"广告，联系房东直租，省中介费</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">签合同前拍好房间现状照片，押金收据务必保留</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-food">
+          <div class="accordion-header">
+            <span class="acc-icon">🍚</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天吃什么（5-20元吃饱）</div>
+              <div class="acc-sub">高校食堂、临期食品、公益援助，按预算选择</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">免费选项</span>
+                <span class="acc-tag cheap">5-20元</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🎓 选项一：高校食堂（6-15元/餐）</div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">北京高校管理较严，部分需刷脸或学生卡进入。以下为相对开放的学校，请实时核查政策。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>中国农业大学</strong></td><td>海淀区清华东路17号</td><td>东门相对开放</td><td>6-12元/餐</td></tr>
+                    <tr><td><strong>首都师范大学</strong></td><td>海淀区西三环北路105号</td><td>步行可进入</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>北京联合大学</strong></td><td>朝阳区北四环东路97号</td><td>开放度较高</td><td>5-10元/餐</td></tr>
+                    <tr><td><strong>北京工业大学</strong></td><td>朝阳区平乐园100号</td><td>非高峰期可进</td><td>6-12元/餐</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">乘地铁至目标学校附近，跟随学生人流进入</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">用微信/支付宝/现金直接付款，不需要学生卡</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">建议错开高峰（11:30-13:00）用餐，低调进入</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏪 选项二：临期食品店 &amp; 便利店折扣</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">北京有大量<strong>好特卖（HotMaxx）</strong>门店，高德搜"好特卖"，朝阳/海淀/西城均有</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content"><strong>嗨特购</strong>连锁在北京也有多家，专售临期进口食品，价格低至1-5元</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">便利蜂、罗森每天<strong>20:00后</strong>对当日临期食品打折，面包/饭团折扣最大</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">菜市场收摊前（下午5点后）可低价购买蔬菜，马驹桥周边菜市场最便宜</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🍜 选项三：低价餐饮选项（5-15元吃饱）</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>价格</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td>马驹桥务工区周边饭馆</td><td>8-12元</td><td>专为建筑工人、零工服务，量大价廉</td></tr>
+                    <tr><td>玉泉营大红门批发市场周边</td><td>5-10元</td><td>早餐摊、包子铺，6点开始营业</td></tr>
+                    <tr><td>麦当劳App领券套餐</td><td>约13元</td><td>汉堡+小食，App每天有优惠券</td></tr>
+                    <tr><td>胡同早餐摊</td><td>4-8元</td><td>豆浆油条、烧饼果子，北京特有</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">❤️ 选项四：临时救助金</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">北京市民政局临时救助</div>
+                    <div class="ic-body">
+                      ☎️ 010-65278866<br>
+                      可申请一次性临时救助金（几百元）<br>
+                      向所在区民政局提出申请
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-earn">
+          <div class="accordion-header">
+            <span class="acc-icon">💰</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天能赚到钱（零门槛，当天结算）</div>
+              <div class="acc-sub">零工平台、劳务市场、献血，当天可到账</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">当天到账</span>
+                <span class="acc-tag cheap">100-500元/天</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📱 方案一：零工平台（当天结算）</div>
+                <table class="data-table">
+                  <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>闪送骑手</strong></td><td>同城急送（商务文件为主）</td><td>150-450元</td><td>闪送App→注册骑手</td></tr>
+                    <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>120-350元</td><td>微信搜"美团跑腿"</td></tr>
+                    <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>100-250元</td><td>货拉拉App→成为帮手</td></tr>
+                    <tr><td><strong>美团外卖众包</strong></td><td>外卖配送</td><td>120-300元</td><td>美团App→成为骑手</td></tr>
+                    <tr><td><strong>京东众包</strong></td><td>快递配送（北京特色）</td><td>100-200元</td><td>京东App→众包</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content"><strong>闪送首选：</strong>下载闪送App → 成为骑手 → 上传身份证+银行卡，1-2小时完成审核</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">北京CBD（国贸/望京）闪送需求极大，商务文件急送单价高，优先去这些区域接单</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">无电动车可先做步行众包/帮手，有钱后租电动车日收入可达300+元</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>北京特色机会：</strong>故宫、天安门等景区附近有大量扫码、促销类临时工需求，在美团/拉勾/58搜索"促销员日结"也是快速入手方式。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏗️ 方案二：劳务市场（当天现结）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>北京最大劳务集散地：马驹桥</strong>（通州区马驹桥镇），每天清晨聚集数千务工人员。地铁6号线草房站下，步行或骑共享单车前往。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>马驹桥劳务市场</strong></td><td>通州区马驹桥镇马驹桥路（地铁6号线草房站）</td><td>早上 5:30-7:00</td><td>180-320元</td></tr>
+                    <tr><td><strong>玉泉营劳务市场</strong></td><td>丰台区玉泉营桥附近（地铁10号线纪家庙站）</td><td>早上 6:00-8:00</td><td>150-250元</td></tr>
+                    <tr><td><strong>十里河装修劳务</strong></td><td>朝阳区十里河建材区附近</td><td>早上 6:00-8:00</td><td>200-400元（装修工）</td></tr>
+                    <tr><td><strong>大钟寺劳务市场</strong></td><td>海淀区大钟寺附近</td><td>早上 6:30-8:30</td><td>150-250元</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">前一天查好路线，确保早上<strong>5:30-6:30</strong>到达马驹桥，这是工头最集中的时间</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">主动询问：有什么活？工资多少？当天结吗？</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content"><strong>只接当天现结的活</strong>，不接"明天打款"的承诺</div></div>
+                  <div class="step"><span class="step-num">4</span><div class="step-content">当天完工后立即要工资，不要空手离开工地</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">遇到拖欠工资立即拨打 <strong>12333</strong>（劳动仲裁）。保留工作凭证（照片/微信聊天记录/欠条）。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🩸 方案三：无偿献血（营养补贴约100-500元）⚡</div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚡</span>
+                  <div class="alert-content">献血补贴标准以北京市血液中心最新公告为准，请以官网信息为准。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>北京市血液中心（总部）</strong></td><td>西城区西直门南大街8号 ⚡请核实</td><td>周一至周日 8:30-17:00</td></tr>
+                    <tr><td><strong>王府井献血屋</strong></td><td>东城区王府井大街附近</td><td>9:00-17:00</td></tr>
+                    <tr><td><strong>西单献血屋</strong></td><td>西城区西单北大街</td><td>9:00-17:00</td></tr>
+                    <tr><td><strong>中关村献血站</strong></td><td>海淀区中关村大街附近</td><td>9:00-17:00</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">微信搜索"<strong>北京献血</strong>"小程序，查看所有献血点位置和预约入口</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">携带身份证前往，健康问询+体检约15分钟</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">捐献全血200-400ml，全程30-40分钟，领取献血证和营养补贴</div></div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">献血基本资格</div>
+                    <div class="ic-body">年龄18-60周岁<br>体重男≥50kg，女≥45kg<br>前一天充分休息<br>两次全血间隔≥6个月</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">北京补贴参考 ⚡</div>
+                    <div class="ic-body">全血200ml：约100-200元营养补贴<br>单采血小板：约300-500元<br>另有纪念品、证书等</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-comm">
+          <div class="accordion-header">
+            <span class="acc-icon">📱</span>
+            <div class="acc-title-block">
+              <div class="acc-title">基础通信保障</div>
+              <div class="acc-sub">最便宜电话卡、公共Wi-Fi、免费充电地点</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">9元/月起</span>
+                <span class="acc-tag free">免费Wi-Fi</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📲 最便宜电话卡</div>
+                <table class="data-table">
+                  <thead><tr><th>运营商</th><th>套餐</th><th>月费</th><th>购买方式</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>中国电信</strong></td><td>9元套餐（含流量+通话）</td><td>9元</td><td>电信营业厅现场办理</td></tr>
+                    <tr><td><strong>中国移动</strong></td><td>花卡9元套餐</td><td>9元</td><td>移动营业厅/微信搜"中国移动"</td></tr>
+                    <tr><td><strong>中国联通</strong></td><td>沃派卡9元</td><td>9元</td><td>联通营业厅</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"中国电信营业厅"，找最近一家</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">带身份证，说"我要最便宜的套餐，当天可用"，现场激活即可</div></div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📶 北京免费公共 Wi-Fi</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>Wi-Fi 名称</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td>北京地铁站内</td><td>各线路专属Wi-Fi</td><td>部分线路站内有覆盖，速度一般</td></tr>
+                    <tr><td>首都图书馆</td><td>图书馆专用Wi-Fi</td><td>朝阳区东三环南路88号，稳定高速</td></tr>
+                    <tr><td>国家图书馆</td><td>图书馆专用Wi-Fi</td><td>海淀区中关村南大街33号，极稳定</td></tr>
+                    <tr><td>麦当劳/肯德基</td><td>McDonald's Free WiFi</td><td>点餐后可用，全市均有</td></tr>
+                    <tr><td>星巴克</td><td>Starbucks WiFi</td><td>点咖啡后可用，速度快</td></tr>
+                  </tbody>
+                </table>
+                <div class="alert success">
+                  <span class="alert-icon">✅</span>
+                  <div class="alert-content"><strong>强烈推荐：国家图书馆</strong>（地铁4号线国家图书馆站A出口），免费Wi-Fi+免费充电+免费座位，可整天在此处理找工作事务。开放时间：周二至周日 9:00-21:00。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🔋 免费充电地点</div>
+                <table class="data-table">
+                  <thead><tr><th>场所</th><th>说明</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>各区图书馆</strong></td><td>阅览区有插座，完全免费，国家图书馆插座最多</td></tr>
+                    <tr><td><strong>北京市民中心（各区政务大厅）</strong></td><td>等候区有充电设施</td></tr>
+                    <tr><td><strong>麦当劳/肯德基</strong></td><td>座位旁有USB插座，点餐后可用</td></tr>
+                    <tr><td><strong>大型商场休息区</strong></td><td>SKP、国贸、西单等商场休息区有充电座</td></tr>
+                    <tr><td><strong>共享充电宝</strong></td><td>小电/来电，约1-2元/小时，地铁站/便利店均有</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 第二章 -->
+    <section class="chapter" id="chapter2">
+      <div class="chapter-header">
+        <div class="chapter-icon blue">🔵</div>
+        <div class="chapter-title">
+          <h2>第二章：站稳脚（第 2-4 周）</h2>
+          <p>找到稳定住所、找到正式工作、开通金融账户——建立在北京长期生活的基础。</p>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-house">
+          <div class="accordion-header">
+            <span class="acc-icon">🏠</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到稳定住所</div>
+              <div class="acc-sub">求职驿站 / 合租 / 城乡结合部单间，月租800-2000元</div>
+              <div class="acc-tags">
+                <span class="acc-tag free">驿站免费</span>
+                <span class="acc-tag cheap">合租800元起</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🏢 选项一：北京求职驿站（免费住 7-14 天）⚡</div>
+                <div class="alert info">
+                  <span class="alert-icon">ℹ️</span>
+                  <div class="alert-content">北京部分区人社局为来京求职人员提供临时免费住宿，名额有限，以最新官方公告为准。</div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">各区人社局热线 ⚡</div>
+                    <div class="ic-body">
+                      朝阳区：010-85960900<br>
+                      海淀区：010-82609999<br>
+                      丰台区：010-63818888<br>
+                      大兴区：010-69248868<br>
+                      通州区：010-81523808
+                    </div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">申请条件（参考）⚡</div>
+                    <div class="ic-body">年龄18-45周岁<br>在京无固定住所<br>有求职意愿<br>持有效身份证</div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>北京通App</strong>，或登录北京市人社局官网 rsj.beijing.gov.cn，搜索"求职驿站"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">或直接拨打所在区人社局电话，询问当前是否有名额</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">携带身份证前往指定地点办理，审核通过后安排入住</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="http://rsj.beijing.gov.cn" target="_blank" class="link-btn outline">🌐 北京人社局官网</a>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🏘️ 选项二：五环外合租（月租800-1500元）</div>
+                <table class="data-table">
+                  <thead><tr><th>区域</th><th>代表地点</th><th>合租价格</th><th>通勤参考</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>房山区</strong></td><td>良乡、窦店、阎村</td><td>800-1200元</td><td>地铁房山线，距市区40-60分钟</td></tr>
+                    <tr><td><strong>大兴区</strong></td><td>黄村、西红门、亦庄</td><td>900-1400元</td><td>地铁大兴线/亦庄线</td></tr>
+                    <tr><td><strong>顺义区</strong></td><td>牛栏山、顺义城区</td><td>700-1100元</td><td>地铁15号线</td></tr>
+                    <tr><td><strong>昌平区</strong></td><td>沙河、南口、天通苑</td><td>800-1200元</td><td>地铁昌平线/5号线</td></tr>
+                    <tr><td><strong>通州区</strong></td><td>梨园、台湖、漷县</td><td>900-1400元</td><td>地铁6号线/八通线</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>安居客/链家</strong>，搜"北京合租 单间"，筛选五环外，价格设1500元以下</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">微信搜"北京找房"、"大兴找房"等关键词加入本地租房群，群里房源更新快</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">签约前检查房间是否有燃气泄漏、漏水等问题，拍照记录</div></div>
+                </div>
+                <div class="link-btns">
+                  <a href="https://bj.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客北京</a>
+                  <a href="https://bj.58.com" target="_blank" class="link-btn outline">📋 58同城北京</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-job">
+          <div class="accordion-header">
+            <span class="acc-icon">💼</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到工作</div>
+              <div class="acc-sub">蓝领/白领方向，北京主要就业区域 + 招聘渠道</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">蓝领当天入职</span>
+                <span class="acc-tag cheap">白领互联网机会多</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🔧 蓝领方向（建筑/快递/餐饮/保洁）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>最快路径：</strong>北京建筑工地（马驹桥/大兴/通州大量工地）需求量极大，很多提供住宿+三餐，当天可上岗。早上去劳务市场直接找工头。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>BOSS直聘</strong></td><td>直接跟老板聊，响应最快</td><td>应用市场搜"BOSS直聘"</td></tr>
+                    <tr><td><strong>58同城</strong></td><td>蓝领职位多，日结/周结均有</td><td>bj.58.com</td></tr>
+                    <tr><td><strong>马驹桥劳务市场</strong></td><td>北京最大，建筑/装修/搬运</td><td>通州区马驹桥，线下前往</td></tr>
+                    <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖骑手，灵活自由</td><td>美团App→骑手</td></tr>
+                    <tr><td><strong>顺丰速运招聘</strong></td><td>快递员，稳定有社保</td><td>sf-express.com/careers</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">去<strong>马驹桥劳务市场</strong>（通州）或<strong>玉泉营劳务市场</strong>（丰台），直接找工头</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">大兴/通州/顺义的大型物流仓（京东华北仓、顺丰转运中心）常年招聘分拣员</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">入职确认：①有无宿舍 ②试用期工资 ③是否签劳动合同 ④社保何时参保</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">通过中介找工作，<strong>不要付任何介绍费</strong>。合法中介不收求职者费用。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💻 白领方向（行政/客服/运营/互联网）</div>
+                <div class="alert success">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>北京互联网机会最多：</strong>中关村（百度/字节/滴滴）、望京（阿里/抖音）、朝阳（各类互联网公司）是核心聚集区，白领岗位需求量极大。</div>
+                </div>
+                <table class="data-table">
+                  <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>BOSS直聘</strong></td><td>互联网运营/产品/客服</td><td>北京互联网公司首选平台</td></tr>
+                    <tr><td><strong>拉勾招聘</strong></td><td>互联网/技术岗位</td><td>北京IT行业招聘专属平台</td></tr>
+                    <tr><td><strong>智联招聘</strong></td><td>行政文员/销售/客服</td><td>传统企业岗位多</td></tr>
+                    <tr><td><strong>前程无忧</strong></td><td>各类白领岗位</td><td>大企业岗位多</td></tr>
+                    <tr><td><strong>猎聘</strong></td><td>中高端岗位（有经验者）</td><td>薪资透明，效率高</td></tr>
+                  </tbody>
+                </table>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">优先投<strong>客服/销售/行政助理</strong>，门槛低、北京需求量大</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">BOSS直聘主动发消息给HR，说"我可以随时来面试，请问是否有合适岗位"</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">面试强调能吃苦、稳定性强、随时到岗，比技能更重要</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-bank">
+          <div class="accordion-header">
+            <span class="acc-icon">🏦</span>
+            <div class="acc-title-block">
+              <div class="acc-title">开通金融账户</div>
+              <div class="acc-sub">银行卡 + 微信/支付宝实名，收工资的基础</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">仅需身份证</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">🏧 开银行卡（推荐：邮政储蓄银行/农业银行）</div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content">邮政储蓄银行和农业银行开卡门槛最低，只需身份证，无需北京户籍。</div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">高德地图搜索"邮政储蓄银行"，找最近网点</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">携带<strong>身份证原件</strong>，到柜台说"我想开一张借记卡，用于收工资"</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">填写申请表，设置密码，当天领卡当天可用</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">近期银行管控严格，部分网点要求出示居住证明或工作证明。若被拒，换一家银行，或先用微信零钱接收工资过渡。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">💚 微信/支付宝实名认证</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content"><strong>微信：</strong>我 → 服务 → 钱包 → 实名认证 → 上传身份证+人脸识别</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content"><strong>支付宝：</strong>我的 → 实名认证 → 身份证认证 → 人脸识别</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">实名后可接收收款、提现到银行卡，部分雇主直接发微信转账</div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 第三章 -->
+    <section class="chapter" id="chapter3">
+      <div class="chapter-header">
+        <div class="chapter-icon green">🟢</div>
+        <div class="chapter-title">
+          <h2>第三章：往上走（第 2-3 个月）</h2>
+          <p>稳定后开始建立长期保障，规划技能提升，目标：北京平均工资 12,000 元/月。</p>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-social">
+          <div class="accordion-header">
+            <span class="acc-icon">🛡️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">社保公积金</div>
+              <div class="acc-sub">公司参保 / 灵活就业参保，保障长期权益</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">公司参保最省</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">✅ 方式一：由公司参保（最推荐）</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">入职时要求签订<strong>劳动合同</strong>，明确社保参缴</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">公司会在次月为你办理北京社保缴费，你只需提供身份证号</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">通过"<strong>北京社保</strong>"微信公众号或官网 bjhrss.gov.cn 查询缴费情况</div></div>
+                </div>
+                <div class="alert warning">
+                  <span class="alert-icon">⚠️</span>
+                  <div class="alert-content">北京社保是享受积分落户的重要条件，连续缴纳年限越长，积分越高。从第一份工作起就坚持要求公司缴社保。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🔄 方式二：灵活就业自缴社保 ⚡</div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">登录北京市人社局官网 rsj.beijing.gov.cn → "灵活就业人员参保"</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">选择最低缴费基数（北京每年调整，约1200-2000元/月起步）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">北京灵活就业社保仅含养老+医疗，费用较高，建议优先寻找有社保的正规用人单位</div></div>
+                </div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">北京社保热线</div>
+                    <div class="ic-body">
+                      ☎️ 12333（全国劳动仲裁）<br>
+                      ☎️ 010-12333（北京专线）<br>
+                      官网：bjhrss.gov.cn
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-resident">
+          <div class="accordion-header">
+            <span class="acc-icon">📄</span>
+            <div class="acc-title-block">
+              <div class="acc-title">北京居住证 &amp; 积分落户路径</div>
+              <div class="acc-sub">居住证是在京长期生活的基础证件，也是积分落户的起点</div>
+              <div class="acc-tags">
+                <span class="acc-tag cheap">免费办理</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">📋 申请北京居住证</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">申请条件</div>
+                    <div class="ic-body">非北京户籍<br>在京居住6个月以上<br>有合法稳定住所<br>有合法稳定就业或就读</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">所需材料</div>
+                    <div class="ic-body">身份证原件<br>租房合同+房主身份证<br>劳动合同或就业证明<br>近期免冠照片</div>
+                  </div>
+                </div>
+                <div class="steps">
+                  <div class="step"><span class="step-num">1</span><div class="step-content">通过<strong>北京通App</strong>或前往<strong>居住地辖区派出所/街道政务服务中心</strong>办理</div></div>
+                  <div class="step"><span class="step-num">2</span><div class="step-content">在京连续居住满6个月后方可申请，之前先办<strong>居住登记</strong>（到派出所登记，即可获得居住证申请资格积累时间）</div></div>
+                  <div class="step"><span class="step-num">3</span><div class="step-content">居住证有效期1年，每年续签，保持连续性</div></div>
+                </div>
+                <div class="alert info">
+                  <span class="alert-icon">💡</span>
+                  <div class="alert-content"><strong>北京积分落户：</strong>持有居住证+连续缴纳社保+学历+技能证书，逐年积累积分，参与每年一次的积分落户摇号。长期规划从第一天就要开始。</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-skill">
+          <div class="accordion-header">
+            <span class="acc-icon">📈</span>
+            <div class="acc-title-block">
+              <div class="acc-title">技能变现 → 达到北京平均工资</div>
+              <div class="acc-sub">北京2024年平均工资约12,000元/月，互联网/金融/政务服务是主要机会</div>
+              <div class="acc-tags">
+                <span class="acc-tag fast">目标均薪12000</span>
+              </div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <div class="content-block">
+                <div class="block-title">💡 北京平均工资参考 ⚡</div>
+                <div class="alert info">
+                  <span class="alert-icon">📊</span>
+                  <div class="alert-content">北京2023年城镇非私营单位就业人员年平均工资约<strong>14.7万元/年（约12,200元/月）</strong>。私营单位约9万元/年（约7,500元/月）。建议以月薪9,000-10,000元为初期目标。</div>
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">🚀 北京特有技能变现机会</div>
+                <table class="data-table">
+                  <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>互联网运营/客服</strong></td><td>5,000-7,000元</td><td>8,000-12,000元</td><td>进入字节/美团/京东等大厂，薪资涨幅快</td></tr>
+                    <tr><td><strong>外卖/闪送骑手</strong></td><td>5,000-8,000元</td><td>8,000-15,000元</td><td>熟悉CBD/商务区路线，高峰接单</td></tr>
+                    <tr><td><strong>网约车司机</strong></td><td>6,000-9,000元</td><td>10,000-15,000元</td><td>需驾照+租车，选滴滴/T3/高德打车</td></tr>
+                    <tr><td><strong>销售（房地产/金融）</strong></td><td>底薪3,000+提成</td><td>10,000-30,000元</td><td>北京房产/金融行业提成极高</td></tr>
+                    <tr><td><strong>建筑工/装修工</strong></td><td>6,000-9,000元</td><td>10,000-15,000元</td><td>学一门技能（水电工/泥瓦工），工头直接提升</td></tr>
+                    <tr><td><strong>IT技术</strong></td><td>—</td><td>12,000-20,000元</td><td>中关村需求极大，Java/Python/前端均可，需3-6个月学习</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="content-block">
+                <div class="block-title">📚 北京免费技能提升资源</div>
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="ic-title">北京职业培训补贴</div>
+                    <div class="ic-body">通过"北京通App"申请职业技能提升补贴，参加官方认定课程可报销学费。热线：010-12333</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">国家图书馆免费资源</div>
+                    <div class="ic-body">免费办借阅证，可借职业技能书籍<br>馆内提供免费网络课程入口<br>地址：海淀区中关村南大街33号</div>
+                  </div>
+                  <div class="info-card">
+                    <div class="ic-title">中关村创业服务</div>
+                    <div class="ic-body">中关村科技园各孵化器定期举办免费培训/沙龙，适合有创业/互联网想法者参与</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 资源速查 -->
+    <section class="chapter" id="resources">
+      <div class="chapter-header">
+        <div class="chapter-icon yellow">⚡</div>
+        <div class="chapter-title">
+          <h2>北京资源速查</h2>
+          <p>所有关键热线、地址、平台入口，一页汇总。</p>
+        </div>
+      </div>
+
+      <div style="background:#fff;border-radius:12px;border:1.5px solid #e0e0e0;overflow:hidden;">
+        <table class="data-table" style="margin:0;border:none;">
+          <thead><tr><th>类别</th><th>名称</th><th>联系方式 / 地址</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>北京市民热线</td><td data-copy="12345"><strong>12345</strong></td><td>政府服务、投诉举报</td></tr>
+            <tr><td>急救</td><td data-copy="120"><strong>120</strong></td><td>医疗急救</td></tr>
+            <tr><td>报警</td><td data-copy="110"><strong>110</strong></td><td>治安、人身安全</td></tr>
+            <tr><td rowspan="2"><strong>🏠 救助站</strong></td><td>北京市救助管理站</td><td>西城区光明路14号<br>☎ 010-83112233</td><td>24小时，免费住宿餐饮</td></tr>
+            <tr><td>朝阳区救助站</td><td>朝阳区惠新东街8号<br>☎ 010-64951716</td><td>24小时接待</td></tr>
+            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td data-copy="12333"><strong>12333</strong></td><td>讨薪、劳动争议</td></tr>
+            <tr><td>法律援助热线</td><td data-copy="12348"><strong>12348</strong></td><td>免费法律咨询</td></tr>
+            <tr><td><strong>🏛️ 政务服务</strong></td><td>北京通App</td><td>应用市场搜"北京通"</td><td>社保/居住证/求职驿站一站式办理</td></tr>
+            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>国家图书馆</td><td>海淀区中关村南大街33号<br>地铁4号线国家图书馆站A出口</td><td>免费Wi-Fi+充电，周二至周日9:00-21:00</td></tr>
+            <tr><td>北京市血液中心</td><td>西城区西直门南大街8号 ⚡请核实<br>☎ 010-86235577 ⚡请核实</td><td>献血点：微信搜"北京献血"</td></tr>
+            <tr><td rowspan="2"><strong>🏗️ 劳务市场</strong></td><td>马驹桥劳务市场</td><td>通州区马驹桥镇<br>地铁6号线草房站</td><td>北京最大，早5:30-7:00到场</td></tr>
+            <tr><td>玉泉营劳务市场</td><td>丰台区玉泉营桥附近<br>地铁10号线纪家庙站</td><td>早6:00-8:00到场</td></tr>
+            <tr><td rowspan="4"><strong>💼 求职平台</strong></td><td>BOSS直聘</td><td><a href="https://www.zhipin.com" target="_blank">zhipin.com</a></td><td>全类型，响应快</td></tr>
+            <tr><td>拉勾招聘</td><td><a href="https://www.lagou.com" target="_blank">lagou.com</a></td><td>北京互联网岗位专属</td></tr>
+            <tr><td>58同城</td><td><a href="https://bj.58.com" target="_blank">bj.58.com</a></td><td>蓝领/日结工作多</td></tr>
+            <tr><td>安居客</td><td><a href="https://bj.anjuke.com" target="_blank">bj.anjuke.com</a></td><td>租房找房</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="margin-top:16px;">
+        <div class="alert warning">
+          <span class="alert-icon">⚡</span>
+          <div class="alert-content">以上所有信息均为参考，政策/地址/电话可能随时变更。如遇信息失效，请直接搜索对应机构名称获取最新信息，或拨打 12345 咨询。</div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>北京生存指南 · 城市生存手册 · 信息仅供参考，使用前请自行核实</p>
+  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a> · <a href="mailto:feedback@example.com">纠错/反馈</a></p>
+</footer>
+
 <script src="../assets/app.js"></script>
 </body>
 </html>

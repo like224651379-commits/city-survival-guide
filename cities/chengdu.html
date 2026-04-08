@@ -3,23 +3,578 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>成都生存指南 — 城市生存手册</title>
+  <title>成都生存指南 — 从零开始，达到城市平均工资</title>
+  <meta name="description" content="成都城市生存详细指南：住所、食物、赚钱、找工作、社保，从0到月入均薪7500元。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body data-city="chengdu">
+
 <header class="city-header">
   <div class="inner">
     <a href="../index.html" class="back-btn">← 返回</a>
     <div class="city-header-title">成都<span>生存指南</span></div>
+    <nav class="chapter-nav">
+      <a href="#chapter1">🔴 活下去</a>
+      <a href="#chapter2">🔵 站稳脚</a>
+      <a href="#chapter3">🟢 往上走</a>
+      <a href="#resources">⚡ 速查</a>
+    </nav>
   </div>
 </header>
-<div class="coming-soon">
-  <div class="emoji">🚧</div>
-  <h2>成都版本建设中</h2>
-  <p>平均工资参考：<strong>约7,500元/月</strong></p>
-  <p>成都版本内容正在整理中，预计近期上线。<br>目前可先参考<a href="shenzhen.html">深圳版</a>的框架，很多方法全国通用。</p>
-  <a href="../index.html" class="link-btn primary" style="display:inline-flex;margin-top:8px;">← 返回城市选择</a>
+
+<div class="emergency-bar">
+  <div class="inner">
+    <span class="emergency-label">⚡ 紧急求助</span>
+    <div class="emergency-item"><span>市民热线</span><span class="num">12345</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>救助站</span><span class="num">028-87669990</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>劳动仲裁</span><span class="num">12333</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>法律援助</span><span class="num">12348</span><span class="copy-hint">点击复制</span></div>
+    <div class="emergency-item"><span>急救</span><span class="num">120</span><span class="copy-hint">点击复制</span></div>
+  </div>
 </div>
+
+<div class="city-layout">
+  <aside class="sidebar">
+    <div class="search-box"><input type="text" id="search-input" placeholder="🔍 搜索关键词…"></div>
+    <div class="sidebar-toc">
+      <h4>目录</h4>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter1">🔴 第一章：活下去</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-sleep">今晚睡哪里</a>
+          <a class="toc-item" href="#acc-food">今天吃什么</a>
+          <a class="toc-item" href="#acc-earn">今天赚到钱</a>
+          <a class="toc-item" href="#acc-comm">通信保障</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter2">🔵 第二章：站稳脚</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-house">找稳定住所</a>
+          <a class="toc-item" href="#acc-job">找到工作</a>
+          <a class="toc-item" href="#acc-bank">开通账户</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#chapter3">🟢 第三章：往上走</div>
+        <div class="toc-items">
+          <a class="toc-item" href="#acc-social">社保公积金</a>
+          <a class="toc-item" href="#acc-resident">居住证路径</a>
+          <a class="toc-item" href="#acc-skill">技能变现</a>
+        </div>
+      </div>
+      <div class="toc-chapter">
+        <div class="toc-chapter-title" data-href="#resources">⚡ 城市速查</div>
+        <div class="toc-items"><a class="toc-item" href="#resources">所有热线 &amp; 地址</a></div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="content-area">
+    <div class="progress-hint">
+      <span>📖</span>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px;" class="progress-text">阅读进度</div>
+        <div class="progress-bar-outer"><div class="progress-bar-inner" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <section class="chapter" id="chapter1">
+      <div class="chapter-header">
+        <div class="chapter-icon red">🔴</div>
+        <div class="chapter-title">
+          <h2>第一章：活下去（前 7 天）</h2>
+          <p>成都是西部第一城，生活成本低、美食便宜、节奏宽松，是来西部发展最理想的落脚城市。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-sleep">
+          <div class="accordion-header">
+            <span class="acc-icon">🛏️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今晚睡哪里</div>
+              <div class="acc-sub">成都住宿成本低，城乡结合部单间400元起</div>
+              <div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">低价选项</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🆓 选项一：成都市救助管理站（免费）</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">成都市救助管理站</div>
+                  <div class="ic-body">📍 成华区建设路1号 ⚡请核实<br>☎️ 028-87669990（24小时）<br>🚇 地铁1号线→建设路站，步行约10分钟</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">双流区救助站</div>
+                  <div class="ic-body">📍 双流区东升街道 ⚡请核实<br>☎️ 028-85870148 ⚡请核实</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">拨打 <strong>028-87669990</strong>，告知位置，可申请免费接送</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带身份证前往，说明来蓉求职、无住所、无收入</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">审核通过提供住宿+三餐，可住7-10天</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">💸 选项二：青年旅社（50-100元/晚）</div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>位置</th><th>价格参考</th><th>特点</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>青羊区</strong></td><td>宽窄巷子/人民公园附近</td><td>60-100元/晚</td><td>文旅区，氛围好</td></tr>
+                  <tr><td><strong>锦江区</strong></td><td>春熙路/九眼桥附近</td><td>60-100元/晚</td><td>市中心，地铁方便</td></tr>
+                  <tr><td><strong>武侯区</strong></td><td>武侯祠/太古里附近</td><td>60-100元/晚</td><td>历史区，文化氛围</td></tr>
+                  <tr><td><strong>双流区</strong></td><td>机场附近</td><td>50-80元/晚</td><td>价格最低，适合刚到</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏘️ 选项三：城乡结合部/城中村短租（押一付一起住）</div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>代表地点</th><th>单间月租</th><th>适合方向</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>郫都区</strong></td><td>犀浦镇、德源镇</td><td>400-700元</td><td>电子科技/制造</td></tr>
+                  <tr><td><strong>双流区</strong></td><td>华阳、彭镇</td><td>400-700元</td><td>电子/物流/制造</td></tr>
+                  <tr><td><strong>龙泉驿区</strong></td><td>成龙路沿线村落</td><td>400-700元</td><td>汽车制造/零配件</td></tr>
+                  <tr><td><strong>武侯区</strong></td><td>武侯区城中村（黉门街周边）</td><td>600-900元</td><td>餐饮/商贸/服务</td></tr>
+                  <tr><td><strong>成华区</strong></td><td>建设路、二仙桥附近老社区</td><td>500-800元</td><td>制造/物流</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>58同城</strong>搜"成都日租/单间 押一付一"，筛选三环外低价房</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">犀浦地铁口周边是成都最大学生/务工聚集区，房源多价格低</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">成都房东普遍好说话，直接谈"押一付一"成功率高</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-food">
+          <div class="accordion-header">
+            <span class="acc-icon">🍚</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天吃什么（5-15元吃饱）</div>
+              <div class="acc-sub">成都美食天堂，低价小吃极多，5元能吃好</div>
+              <div class="acc-tags"><span class="acc-tag free">免费选项</span><span class="acc-tag cheap">5-15元</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🎓 选项一：高校食堂（5-12元/餐）</div>
+              <table class="data-table">
+                <thead><tr><th>学校</th><th>地址</th><th>进入方式</th><th>价格参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>电子科技大学</strong></td><td>高新区（西区）西源大道2006号</td><td>沙河校区相对开放</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>西南民族大学</strong></td><td>武侯区一环路南四段16号</td><td>武侯校区相对宽松</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>成都大学</strong></td><td>龙泉驿区十陵镇成洛路2025号</td><td>开放度较高</td><td>5-10元/餐</td></tr>
+                  <tr><td><strong>西华大学</strong></td><td>郫都区土桥金周路999号</td><td>较为开放</td><td>5-10元/餐</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🌶️ 成都特色低价美食（全国美食之都）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content">成都是全国美食成本最低的一线城市！普通市民一天吃饭15-20元完全可以，路边美食5-10元管饱又好吃。</div></div>
+              <table class="data-table">
+                <thead><tr><th>食物</th><th>价格</th><th>哪里找</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>担担面/红油面</strong></td><td>6-12元/碗</td><td>城中村、老社区街边面馆，全市遍布</td></tr>
+                  <tr><td><strong>麻辣烫（单人份）</strong></td><td>8-15元</td><td>菜市场旁边、城中村内，量大实惠</td></tr>
+                  <tr><td><strong>钟水饺</strong></td><td>5-10元/份</td><td>东城根街、玉林等地老店最正宗便宜</td></tr>
+                  <tr><td><strong>锅魁/军屯锅魁</strong></td><td>3-6元/个</td><td>城乡结合部早餐摊，早上5-7元可吃饱</td></tr>
+                  <tr><td><strong>冒菜/麻辣香锅</strong></td><td>10-15元/份</td><td>全市各区城中村，量大管饱</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏪 临期食品 &amp; 便利店折扣</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"好特卖"，成都各区均有门店，价格低至1-5元</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">成都便利店（7-11/罗森）每天21:00后折扣临期食品</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">玉林路、菊乐路等老社区菜市场下午5点后蔬菜极便宜</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-earn">
+          <div class="accordion-header">
+            <span class="acc-icon">💰</span>
+            <div class="acc-title-block">
+              <div class="acc-title">今天能赚到钱（零门槛，当天结算）</div>
+              <div class="acc-sub">零工平台、劳务市场，当天可到账</div>
+              <div class="acc-tags"><span class="acc-tag fast">当天到账</span><span class="acc-tag cheap">80-300元/天</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">📱 方案一：零工平台（当天结算）</div>
+              <table class="data-table">
+                <thead><tr><th>平台</th><th>工作类型</th><th>日收入参考</th><th>注册入口</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>美团跑腿众包</strong></td><td>帮买帮送</td><td>80-250元</td><td>微信搜"美团跑腿"</td></tr>
+                  <tr><td><strong>闪送骑手</strong></td><td>同城急送</td><td>100-350元</td><td>闪送App</td></tr>
+                  <tr><td><strong>货拉拉帮手</strong></td><td>搬家协助</td><td>80-200元</td><td>货拉拉App</td></tr>
+                  <tr><td><strong>美团/饿了么骑手</strong></td><td>外卖配送</td><td>80-250元</td><td>美团App→骑手</td></tr>
+                  <tr><td><strong>58速聘日结</strong></td><td>各类日结工</td><td>80-200元</td><td>58同城App</td></tr>
+                </tbody>
+              </table>
+              <div class="alert info"><span class="alert-icon">💡</span><div class="alert-content"><strong>成都特色：</strong>天府新区/高新区写字楼密集，商务急送需求大；春熙路/太古里商圈外卖需求极旺，高峰期接单收入可观。</div></div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏗️ 方案二：劳务市场（当天现结）</div>
+              <table class="data-table">
+                <thead><tr><th>地点</th><th>地址</th><th>最佳到达时间</th><th>日结参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>双桥子劳务市场</strong></td><td>成华区双桥路附近</td><td>早上 6:00-8:00</td><td>120-220元</td></tr>
+                  <tr><td><strong>磨盘山劳务市场</strong></td><td>金牛区磨盘山附近</td><td>早上 6:30-8:30</td><td>120-220元</td></tr>
+                  <tr><td><strong>犀浦劳务市场</strong></td><td>郫都区犀浦镇（地铁6号线）</td><td>早上 6:00-8:00</td><td>120-200元</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🩸 方案三：无偿献血（补贴约100-400元）⚡</div>
+              <table class="data-table">
+                <thead><tr><th>献血点</th><th>地址</th><th>开放时间</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>成都市血液中心</strong></td><td>青羊区祠堂街1号 ⚡请核实</td><td>周一至周日 8:30-17:00</td></tr>
+                  <tr><td><strong>春熙路献血屋</strong></td><td>锦江区春熙路步行街附近</td><td>9:00-17:00</td></tr>
+                  <tr><td><strong>天府广场献血点</strong></td><td>青羊区天府广场附近</td><td>9:00-17:00</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">微信搜"成都血液中心"小程序，查献血点+预约</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带身份证前往，全程约30分钟，领取营养补贴</div></div>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-comm">
+          <div class="accordion-header">
+            <span class="acc-icon">📱</span>
+            <div class="acc-title-block">
+              <div class="acc-title">基础通信保障</div>
+              <div class="acc-sub">最便宜电话卡、公共Wi-Fi、免费充电</div>
+              <div class="acc-tags"><span class="acc-tag cheap">9元/月起</span><span class="acc-tag free">免费Wi-Fi</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">📲 电话卡 + Wi-Fi + 充电</div>
+              <table class="data-table">
+                <thead><tr><th>场所/方式</th><th>说明</th><th>费用</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>中国电信/移动/联通</strong></td><td>9元月套餐，带身份证到营业厅办理</td><td>9元/月</td></tr>
+                  <tr><td><strong>成都图书馆</strong></td><td>免费Wi-Fi+充电，青羊区通惠门路9号，9:00-20:00</td><td>免费</td></tr>
+                  <tr><td><strong>成都地铁站</strong></td><td>部分站有免费Wi-Fi</td><td>免费</td></tr>
+                  <tr><td><strong>麦当劳/肯德基</strong></td><td>点餐后免费Wi-Fi+充电座位</td><td>13元起消费</td></tr>
+                  <tr><td><strong>宽窄巷子公共区域</strong></td><td>景区免费Wi-Fi覆盖较好</td><td>免费</td></tr>
+                </tbody>
+              </table>
+              <div class="alert success"><span class="alert-icon">✅</span><div class="alert-content"><strong>推荐：成都图书馆</strong>（地铁4号线通惠门站A出口），免费Wi-Fi+充电+阅读座位，周二至周日 9:00-20:00，是成都最佳免费办公/求职地。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="chapter2">
+      <div class="chapter-header">
+        <div class="chapter-icon blue">🔵</div>
+        <div class="chapter-title">
+          <h2>第二章：站稳脚（第 2-4 周）</h2>
+          <p>成都生活成本低，找到工作和住所比北上广压力小很多，是来西部发展的最佳缓冲城市。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-house">
+          <div class="accordion-header">
+            <span class="acc-icon">🏠</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到稳定住所</div>
+              <div class="acc-sub">三环外合租 / 城郊单间，月租400-1000元</div>
+              <div class="acc-tags"><span class="acc-tag free">驿站免费</span><span class="acc-tag cheap">合租400元起</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🏢 选项一：成都求职驿站（免费住 7-14 天）⚡</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">各区人社局热线 ⚡</div>
+                  <div class="ic-body">锦江区：028-84312345<br>武侯区：028-85123456 ⚡请核实<br>成华区：028-84520000 ⚡请核实<br>高新区：028-85323456 ⚡请核实<br>市人社局：028-12333</div>
+                </div>
+              </div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>天府市民云App</strong>，搜索"求职驿站"或拨打12333咨询</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">携带身份证前往所在区人社局申请</div></div>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">🏘️ 选项二：三环外合租（月租400-900元）</div>
+              <table class="data-table">
+                <thead><tr><th>区域</th><th>代表地点</th><th>合租价格</th><th>通勤参考</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>郫都区</strong></td><td>犀浦、红光、德源</td><td>400-700元</td><td>地铁6号线，30分钟到市区</td></tr>
+                  <tr><td><strong>双流区</strong></td><td>华阳、彭镇、东升</td><td>400-700元</td><td>地铁1号线延伸段</td></tr>
+                  <tr><td><strong>龙泉驿区</strong></td><td>成龙大道沿线</td><td>400-700元</td><td>地铁13号线</td></tr>
+                  <tr><td><strong>新津区</strong></td><td>新津城区</td><td>300-600元</td><td>地铁10号线，较远</td></tr>
+                </tbody>
+              </table>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">打开<strong>58同城/安居客</strong>，搜"成都合租 三环外"，价格设800元以下</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">犀浦地铁站附近房源多且价格低，是成都最佳性价比区域</div></div>
+              </div>
+              <div class="link-btns">
+                <a href="https://cd.anjuke.com" target="_blank" class="link-btn outline">🏠 安居客成都</a>
+                <a href="https://cd.58.com" target="_blank" class="link-btn outline">📋 58同城成都</a>
+              </div>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-job">
+          <div class="accordion-header">
+            <span class="acc-icon">💼</span>
+            <div class="acc-title-block">
+              <div class="acc-title">找到工作</div>
+              <div class="acc-sub">成都以电子/互联网/文旅/游戏为主，机会多</div>
+              <div class="acc-tags"><span class="acc-tag fast">蓝领当天入职</span><span class="acc-tag cheap">游戏/直播机会多</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+
+            <div class="content-block">
+              <div class="block-title">🔧 蓝领方向（电子/制造/物流/餐饮）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>成都蓝领首选：</strong>郫都区电子科技大学产业园/高新西区大量电子代工厂（富士康成都在内），龙泉驿汽车制造（一汽大众/沃尔沃等），常年大量招聘工人。</div></div>
+              <table class="data-table">
+                <thead><tr><th>平台/地点</th><th>特点</th><th>访问方式</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>BOSS直聘</strong></td><td>直接联系老板，响应快</td><td>应用市场搜索</td></tr>
+                  <tr><td><strong>58同城</strong></td><td>蓝领/日结多</td><td>cd.58.com</td></tr>
+                  <tr><td><strong>高新西区产业园</strong></td><td>郫都区，电子工厂聚集</td><td>地铁6号线，线下前往</td></tr>
+                  <tr><td><strong>龙泉驿汽车城</strong></td><td>一汽大众/沃尔沃等整车厂</td><td>地铁13号线，招聘直接去厂区</td></tr>
+                  <tr><td><strong>美团/饿了么骑手</strong></td><td>成都外卖市场大，灵活</td><td>美团App→骑手</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="content-block">
+              <div class="block-title">💻 白领方向（互联网/游戏/直播/文创）</div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>成都白领特色：</strong>游戏（网易/腾讯/畅游成都研发中心）、直播/短视频（大量MCN机构在成都）、文创旅游是成都独特的高增长行业。</div></div>
+              <table class="data-table">
+                <thead><tr><th>平台</th><th>适合职位</th><th>特点</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>BOSS直聘</strong></td><td>游戏/运营/客服/直播</td><td>成都互联网公司首选</td></tr>
+                  <tr><td><strong>智联招聘</strong></td><td>行政/销售/文员</td><td>传统行业多</td></tr>
+                  <tr><td><strong>前程无忧</strong></td><td>各类白领岗位</td><td>成都大型企业多</td></tr>
+                  <tr><td><strong>猎聘</strong></td><td>游戏/技术（有经验者）</td><td>成都游戏行业薪资透明</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-bank">
+          <div class="accordion-header">
+            <span class="acc-icon">🏦</span>
+            <div class="acc-title-block">
+              <div class="acc-title">开通金融账户</div>
+              <div class="acc-sub">银行卡 + 实名认证，收工资的基础</div>
+              <div class="acc-tags"><span class="acc-tag cheap">仅需身份证</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">🏧 开银行卡</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">高德搜"邮政储蓄银行"或"成都银行"，找最近网点</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">带<strong>身份证原件</strong>，说"开一张借记卡，用于收工资"，当天可用</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">成都本地的<strong>成都银行</strong>对本地求职者开户更友好</div></div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="chapter3">
+      <div class="chapter-header">
+        <div class="chapter-icon green">🟢</div>
+        <div class="chapter-title">
+          <h2>第三章：往上走（第 2-3 个月）</h2>
+          <p>成都生活成本低，赚同样的钱生活质量更高。目标：月薪 7,500 元，享受成都生活。</p>
+        </div>
+      </div>
+      <div class="accordion-group">
+
+        <div class="accordion" id="acc-social">
+          <div class="accordion-header">
+            <span class="acc-icon">🛡️</span>
+            <div class="acc-title-block">
+              <div class="acc-title">社保公积金</div>
+              <div class="acc-sub">成都社保是落户和享受公共服务的基础</div>
+              <div class="acc-tags"><span class="acc-tag cheap">公司参保最省</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">✅ 由公司参保（最推荐）</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">入职时要求签<strong>劳动合同</strong>，明确社保缴纳</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">通过"<strong>天府市民云App</strong>"→社保查询，可查缴费情况</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content">成都落户政策相对宽松，持有居住证+社保满1年可申请落户</div></div>
+              </div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">成都社保热线</div>
+                  <div class="ic-body">☎️ 028-12333<br>天府市民云App查询<br>官网：cdhrss.chengdu.gov.cn</div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-resident">
+          <div class="accordion-header">
+            <span class="acc-icon">📄</span>
+            <div class="acc-title-block">
+              <div class="acc-title">成都居住证 &amp; 落户路径</div>
+              <div class="acc-sub">成都落户政策全国最宽松之一</div>
+              <div class="acc-tags"><span class="acc-tag cheap">免费办理</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">📋 申请成都居住证 &amp; 落户</div>
+              <div class="steps">
+                <div class="step"><span class="step-num">1</span><div class="step-content">通过<strong>天府市民云App</strong>在线申请居住证</div></div>
+                <div class="step"><span class="step-num">2</span><div class="step-content">或前往居住地街道派出所现场办理</div></div>
+                <div class="step"><span class="step-num">3</span><div class="step-content"><strong>成都落户特别宽松：</strong>大专以上学历可直接落户；技术人才、有稳定工作+居住证满1年也可申请</div></div>
+              </div>
+              <div class="alert success"><span class="alert-icon">💡</span><div class="alert-content"><strong>成都落户政策优势：</strong>成都是全国落户门槛最低的一线城市之一，大专学历即可申请，比北上广门槛低得多。有长期打算的务必尽早申请。</div></div>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="accordion" id="acc-skill">
+          <div class="accordion-header">
+            <span class="acc-icon">📈</span>
+            <div class="acc-title-block">
+              <div class="acc-title">技能变现 → 达到成都平均工资</div>
+              <div class="acc-sub">成都2024年平均工资约7500元/月，游戏/直播/电商是特色赛道</div>
+              <div class="acc-tags"><span class="acc-tag fast">目标均薪7500</span></div>
+            </div>
+            <span class="acc-arrow">▼</span>
+          </div>
+          <div class="accordion-body"><div class="accordion-body-inner">
+            <div class="content-block">
+              <div class="block-title">🚀 成都特有技能变现机会</div>
+              <table class="data-table">
+                <thead><tr><th>方向</th><th>起步收入</th><th>3个月目标</th><th>关键动作</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>外卖/骑手</strong></td><td>3,500-6,000元</td><td>6,000-10,000元</td><td>熟悉高新/天府新区路线，高峰期接单</td></tr>
+                  <tr><td><strong>游戏测试/客服</strong></td><td>4,000-6,000元</td><td>6,000-9,000元</td><td>成都游戏公司多，门槛相对低</td></tr>
+                  <tr><td><strong>直播/短视频运营</strong></td><td>3,500-5,500元</td><td>6,000-15,000元</td><td>成都MCN机构多，从助播/剪辑做起</td></tr>
+                  <tr><td><strong>文旅导游/讲解员</strong></td><td>3,000-5,000元</td><td>6,000-12,000元</td><td>成都旅游业发达，考导游证后收入大幅提升</td></tr>
+                  <tr><td><strong>汽车技工</strong></td><td>4,000-7,000元</td><td>8,000-12,000元</td><td>龙泉驿汽车城需求大，考取职业资格证</td></tr>
+                  <tr><td><strong>IT技术</strong></td><td>—</td><td>8,000-15,000元</td><td>成都软件园/高新区需求大，成本低性价比高</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="content-block">
+              <div class="block-title">📚 成都免费技能提升资源</div>
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="ic-title">成都职业培训补贴</div>
+                  <div class="ic-body">天府市民云App申请"职业技能补贴"，参加官方认定课程可报销学费。热线：028-12333</div>
+                </div>
+                <div class="info-card">
+                  <div class="ic-title">成都图书馆资源</div>
+                  <div class="ic-body">免费借阅证，职业技能书籍丰富<br>青羊区通惠门路9号<br>周二至周日 9:00-20:00</div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chapter" id="resources">
+      <div class="chapter-header">
+        <div class="chapter-icon yellow">⚡</div>
+        <div class="chapter-title">
+          <h2>成都资源速查</h2>
+          <p>所有关键热线、地址、平台入口，一页汇总。</p>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:12px;border:1.5px solid #e0e0e0;overflow:hidden;">
+        <table class="data-table" style="margin:0;border:none;">
+          <thead><tr><th>类别</th><th>名称</th><th>联系方式 / 地址</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3"><strong>🆘 紧急求助</strong></td><td>成都市民热线</td><td data-copy="12345"><strong>12345</strong></td><td>政府服务</td></tr>
+            <tr><td>急救</td><td data-copy="120"><strong>120</strong></td><td>医疗急救</td></tr>
+            <tr><td>报警</td><td data-copy="110"><strong>110</strong></td><td>人身安全</td></tr>
+            <tr><td rowspan="1"><strong>🏠 救助站</strong></td><td>成都市救助管理站</td><td>成华区建设路1号 ⚡请核实<br>☎ 028-87669990</td><td>24小时，免费住宿餐饮</td></tr>
+            <tr><td rowspan="2"><strong>⚖️ 劳动维权</strong></td><td>劳动仲裁热线</td><td data-copy="12333"><strong>028-12333</strong></td><td>讨薪、劳动争议</td></tr>
+            <tr><td>法律援助热线</td><td data-copy="12348"><strong>12348</strong></td><td>免费法律咨询</td></tr>
+            <tr><td><strong>🏛️ 政务服务</strong></td><td>天府市民云App</td><td>应用市场搜"天府市民云"</td><td>社保/居住证/落户一站式</td></tr>
+            <tr><td rowspan="2"><strong>📚 公共资源</strong></td><td>成都图书馆</td><td>青羊区通惠门路9号<br>地铁4号线通惠门站A出口</td><td>免费Wi-Fi+充电，9:00-20:00</td></tr>
+            <tr><td>成都市血液中心</td><td>青羊区祠堂街1号 ⚡请核实<br>☎ 028-86188111 ⚡请核实</td><td>微信搜"成都献血"</td></tr>
+            <tr><td rowspan="2"><strong>🏗️ 劳务市场</strong></td><td>双桥子劳务市场</td><td>成华区双桥路附近</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td>犀浦劳务市场</td><td>郫都区犀浦镇，地铁6号线</td><td>日结工，早6:00-8:00到场</td></tr>
+            <tr><td rowspan="4"><strong>💼 求职平台</strong></td><td>BOSS直聘</td><td><a href="https://www.zhipin.com" target="_blank">zhipin.com</a></td><td>全类型，响应快</td></tr>
+            <tr><td>智联招聘</td><td><a href="https://www.zhaopin.com" target="_blank">zhaopin.com</a></td><td>传统企业多</td></tr>
+            <tr><td>58同城</td><td><a href="https://cd.58.com" target="_blank">cd.58.com</a></td><td>蓝领/日结多</td></tr>
+            <tr><td>安居客</td><td><a href="https://cd.anjuke.com" target="_blank">cd.anjuke.com</a></td><td>租房找房</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:16px;">
+        <div class="alert warning">
+          <span class="alert-icon">⚡</span>
+          <div class="alert-content">以上所有信息均为参考，政策/地址/电话可能随时变更。如遇信息失效，请直接搜索对应机构名称，或拨打12345咨询。</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>成都生存指南 · 城市生存手册 · 信息仅供参考，使用前请自行核实</p>
+  <p style="margin-top:6px;font-size:12px;">内容最后更新：2025年 · <a href="../index.html">返回城市选择</a> · <a href="mailto:feedback@example.com">纠错/反馈</a></p>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>
