@@ -704,3 +704,16 @@ footer a { color: rgba(255,255,255,0.7); }
   pointer-events: none;
 }
 .toast.show { transform: translateX(-50%) translateY(0); }
+
+/* ===== 表格横向滚动（手机端） ===== */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.table-wrap .data-table {
+  margin: 0;
+  min-width: 480px;
+}
