@@ -717,3 +717,10 @@ footer a { color: rgba(255,255,255,0.7); }
   margin: 0;
   min-width: 480px;
 }
+
+.city-tag.green { background: #e6f4ea; color: #2e7d32; }
+
+/* 第一天行动清单 step-guide */
+.step-guide { margin: 16px 0; }
+.step-title { font-weight: 700; font-size: 15px; color: #333; margin-bottom: 12px; }
+.step-item { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
